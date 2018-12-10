@@ -1,8 +1,8 @@
 name: electrum
 version: master
-summary: Bitcoin thin client
+summary: PKpay thin client
 description: |
-  Lightweight Bitcoin client
+  Lightweight PKcoin client
 
 grade: devel # must be 'stable' to release into candidate/stable channels
 confinement: strict
