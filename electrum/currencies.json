@@ -346,7 +346,7 @@
         "EUR",
         "USD",
         "VEF"
-    ],    
+    ],
     "Bitmarket": [
         "PLN"
     ],
@@ -819,5 +819,13 @@
         "RUB",
         "USD"
     ],
-    "itBit": []
+    "Tangguo": [
+        "USDT",
+        "ZHF"
+    ],
+    "itBit": [],
+    "Bcone": [
+        "USDT",
+        "ZHF"
+    ]
 }
