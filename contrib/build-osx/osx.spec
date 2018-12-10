@@ -7,7 +7,7 @@ import os
 
 PACKAGE='Electrum'
 PYPKG='electrum'
-MAIN_SCRIPT='run_electrum'
+MAIN_SCRIPT='run_pkpay'
 ICONS_FILE='electrum.icns'
 
 for i, x in enumerate(sys.argv):
