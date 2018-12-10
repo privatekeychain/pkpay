@@ -89,7 +89,12 @@ class SimpleConfig(PrintError):
         if not self.user_config:
             # avoid new config getting upgraded
             self.user_config = {'config_version': FINAL_CONFIG_VERSION}
-
+            self.user_config['block_explorer']= "PKcoin explorer"
+            self.user_config['mempool_fees']=True
+            self.user_config['qt_gui_color_theme']="dark"
+            self.user_config['decimal_point']=8
+            self.user_config['num_zeros']=2
+            self.user_config['show_fee']=True
         # config "upgrade" - CLI options
         self.rename_config_keys(
             self.cmdline_options, {'auto_cycle': 'auto_connect'}, True)
