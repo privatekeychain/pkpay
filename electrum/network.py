@@ -173,7 +173,6 @@ class Network(PrintError):
         self.asyncio_loop = asyncio.get_event_loop()
         assert self.asyncio_loop.is_running(), "event loop not running"
         self._loop_thread = None  # type: threading.Thread  # set by caller; only used for sanity checks
-
         if config is None:
             config = {}  # Do not use mutables as default values!
         self.config = SimpleConfig(config) if isinstance(config, dict) else config  # type: SimpleConfig
@@ -187,6 +186,7 @@ class Network(PrintError):
         if self.default_server:
             try:
                 deserialize_server(self.default_server)
+                self.print_error("1111")
             except:
                 self.print_error('Warning: failed to parse server-string; falling back to random.')
                 self.default_server = None
@@ -311,10 +311,11 @@ class Network(PrintError):
         return interface is not None and interface.ready.done()
 
     def is_connecting(self):
+        self.print_msg("connecting")
         return self.connection_status == 'connecting'
 
     async def _request_server_info(self, interface):
-        await interface.ready
+        #await interface.ready
         session = interface.session
 
         async def get_banner():
@@ -422,12 +423,15 @@ class Network(PrintError):
         return out
 
     def _start_interface(self, server: str):
-        if server not in self.interfaces and server not in self.connecting:
+        #if server not in self.interfaces and server not in self.connecting:
+        #if server not in self.interfaces:
             if server == self.default_server:
                 self.print_error(f"connecting to {server} as new interface")
                 self._set_status('connecting')
+               
             self.connecting.add(server)
             self.server_queue.put(server)
+            self.print_msg(f"connecting to {server} as new interface")
 
     def _start_random_interface(self):
         with self.interfaces_lock:

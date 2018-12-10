@@ -80,7 +80,8 @@ class NotificationSession(RPCSession):
                     super().send_request(*args, **kwargs),
                     timeout)
             except asyncio.TimeoutError as e:
-                raise RequestTimedOut('request timed out: {}'.format(args)) from e
+                raise RequestTimedOut(
+                    'request timed out: {}'.format(args)) from e
 
     async def subscribe(self, method: str, params: List, queue: asyncio.Queue):
         # note: until the cache is written for the first time,
@@ -108,7 +109,8 @@ class NotificationSession(RPCSession):
         return str(method) + repr(params)
 
 
-class GracefulDisconnect(Exception): pass
+class GracefulDisconnect(Exception):
+    pass
 
 
 class RequestTimedOut(GracefulDisconnect):
@@ -116,8 +118,12 @@ class RequestTimedOut(GracefulDisconnect):
         return _("Network request timed out.")
 
 
-class ErrorParsingSSLCert(Exception): pass
-class ErrorGettingSSLCertFromServer(Exception): pass
+class ErrorParsingSSLCert(Exception):
+    pass
+
+
+class ErrorGettingSSLCertFromServer(Exception):
+    pass
 
 
 def deserialize_server(server_str: str) -> Tuple[str, str, str]:
@@ -172,9 +178,11 @@ class Interface(PrintError):
             else:
                 auth = aiorpcx.socks.SOCKSUserAuth(username, pw)
             if proxy['mode'] == "socks4":
-                self.proxy = aiorpcx.socks.SOCKSProxy((proxy['host'], int(proxy['port'])), aiorpcx.socks.SOCKS4a, auth)
+                self.proxy = aiorpcx.socks.SOCKSProxy(
+                    (proxy['host'], int(proxy['port'])), aiorpcx.socks.SOCKS4a, auth)
             elif proxy['mode'] == "socks5":
-                self.proxy = aiorpcx.socks.SOCKSProxy((proxy['host'], int(proxy['port'])), aiorpcx.socks.SOCKS5, auth)
+                self.proxy = aiorpcx.socks.SOCKSProxy(
+                    (proxy['host'], int(proxy['port'])), aiorpcx.socks.SOCKS5, auth)
             else:
                 raise NotImplementedError  # http proxy not available with aiorpcx
         else:
@@ -242,11 +250,14 @@ class Interface(PrintError):
             sslc = ca_sslc
         else:
             # pinned self-signed cert
-            sslc = ssl.create_default_context(ssl.Purpose.SERVER_AUTH, cafile=self.cert_path)
+            sslc = ssl.create_default_context(
+                ssl.Purpose.SERVER_AUTH, cafile=self.cert_path)
             sslc.check_hostname = 0
         return sslc
 
     def handle_disconnect(func):
+        #self.print_msg("run handle disconnect")
+
         async def wrapper_func(self, *args, **kwargs):
             try:
                 return await func(self, *args, **kwargs)
@@ -273,8 +284,10 @@ class Interface(PrintError):
             return
 
     def mark_ready(self):
+        self.print_msg("run mark_ready")
         if self.ready.cancelled():
-            raise GracefulDisconnect('conn establishment was too slow; *ready* future was cancelled')
+            raise GracefulDisconnect(
+                'conn establishment was too slow; *ready* future was cancelled')
         if self.ready.done():
             return
 
@@ -286,7 +299,8 @@ class Interface(PrintError):
             self.blockchain = chain
         assert self.blockchain is not None
 
-        self.print_error("set blockchain with height", self.blockchain.height())
+        self.print_error("set blockchain with height",
+                         self.blockchain.height())
 
         self.ready.set_result(1)
 
@@ -300,7 +314,8 @@ class Interface(PrintError):
                     with open(self.cert_path, 'w') as f:
                         cert = ssl.DER_cert_to_PEM_cert(dercert)
                         # workaround android bug
-                        cert = re.sub("([^\n])-----END CERTIFICATE-----","\\1\n-----END CERTIFICATE-----",cert)
+                        cert = re.sub(
+                            "([^\n])-----END CERTIFICATE-----", "\\1\n-----END CERTIFICATE-----", cert)
                         f.write(cert)
                         # even though close flushes we can't fsync when closed.
                         # and we must flush before fsyncing, cause flush flushes to OS buffer
@@ -324,13 +339,16 @@ class Interface(PrintError):
 
     async def get_block_header(self, height, assert_mode):
         # use lower timeout as we usually have network.bhi_lock here
-        self.print_error('requesting block header {} in mode {}'.format(height, assert_mode))
+        self.print_error(
+            'requesting block header {} in mode {}'.format(height, assert_mode))
         timeout = 5 if not self.proxy else 10
         res = await self.session.send_request('blockchain.block.header', [height], timeout=timeout)
         return blockchain.deserialize_header(bytes.fromhex(res), height)
 
     async def request_chunk(self, height, tip=None, *, can_return_early=False):
         index = height // 2016
+        #index = 6
+        self.print_msg("run request_chunk")
         if can_return_early and index in self._requested_chunks:
             return
         self.print_error("requesting chunk from height {}".format(height))
@@ -342,8 +360,10 @@ class Interface(PrintError):
             self._requested_chunks.add(index)
             res = await self.session.send_request('blockchain.block.headers', [index * 2016, size])
         finally:
-            try: self._requested_chunks.remove(index)
-            except KeyError: pass
+            try:
+                self._requested_chunks.remove(index)
+            except KeyError:
+                pass
         conn = self.blockchain.connect_chunk(index, res['hex'])
         if not conn:
             return conn, 0
@@ -357,7 +377,8 @@ class Interface(PrintError):
             try:
                 ver = await session.send_request('server.version', [ELECTRUM_VERSION, PROTOCOL_VERSION])
             except aiorpcx.jsonrpc.RPCError as e:
-                raise GracefulDisconnect(e)  # probably 'unsupported protocol version'
+                # probably 'unsupported protocol version'
+                raise GracefulDisconnect(e)
             if exit_early:
                 return
             self.print_error("connection established. version: {}".format(ver))
@@ -389,7 +410,8 @@ class Interface(PrintError):
             item = await header_queue.get()
             raw_header = item[0]
             height = raw_header['height']
-            header = blockchain.deserialize_header(bfh(raw_header['hex']), height)
+            header = blockchain.deserialize_header(
+                bfh(raw_header['hex']), height)
             self.tip_header = header
             self.tip = height
             if self.tip < constants.net.max_checkpoint():
@@ -423,7 +445,8 @@ class Interface(PrintError):
                 could_connect, num_headers = await self.request_chunk(height, next_height)
                 if not could_connect:
                     if height <= constants.net.max_checkpoint():
-                        raise GracefulDisconnect('server chain conflicts with checkpoints or genesis')
+                        raise GracefulDisconnect(
+                            'server chain conflicts with checkpoints or genesis')
                     last, height = await self.step(height)
                     continue
                 self.network.trigger_callback('network_updated')
@@ -432,7 +455,8 @@ class Interface(PrintError):
                 last = 'catchup'
             else:
                 last, height = await self.step(height)
-            assert (prev_last, prev_height) != (last, height), 'had to prevent infinite loop in interface.sync_until'
+            assert (prev_last, prev_height) != (
+                last, height), 'had to prevent infinite loop in interface.sync_until'
         return last, height
 
     async def step(self, height, header=None):
@@ -441,17 +465,23 @@ class Interface(PrintError):
         if header is None:
             header = await self.get_block_header(height, 'catchup')
 
-        chain = blockchain.check_header(header) if 'mock' not in header else header['mock']['check'](header)
+        chain = blockchain.check_header(
+            header) if 'mock' not in header else header['mock']['check'](header)
         if chain:
-            self.blockchain = chain if isinstance(chain, Blockchain) else self.blockchain
+            self.blockchain = chain if isinstance(
+                chain, Blockchain) else self.blockchain
             return 'catchup', height+1
 
-        can_connect = blockchain.can_connect(header) if 'mock' not in header else header['mock']['connect'](height)
+        can_connect = blockchain.can_connect(
+            header) if 'mock' not in header else header['mock']['connect'](height)
         if not can_connect:
+            self.print_msg("can't connect", height)
             self.print_error("can't connect", height)
             height, header, bad, bad_header = await self._search_headers_backwards(height, header)
-            chain = blockchain.check_header(header) if 'mock' not in header else header['mock']['check'](header)
-            can_connect = blockchain.can_connect(header) if 'mock' not in header else header['mock']['connect'](height)
+            chain = blockchain.check_header(
+                header) if 'mock' not in header else header['mock']['check'](header)
+            can_connect = blockchain.can_connect(
+                header) if 'mock' not in header else header['mock']['connect'](height)
             assert chain or can_connect
         if can_connect:
             self.print_error("could connect", height)
@@ -468,16 +498,20 @@ class Interface(PrintError):
         assert bad == bad_header['block_height']
         _assert_header_does_not_check_against_any_chain(bad_header)
 
-        self.blockchain = chain if isinstance(chain, Blockchain) else self.blockchain
+        self.blockchain = chain if isinstance(
+            chain, Blockchain) else self.blockchain
         good = height
         while True:
             assert good < bad, (good, bad)
             height = (good + bad) // 2
-            self.print_error("binary step. good {}, bad {}, height {}".format(good, bad, height))
+            self.print_error(
+                "binary step. good {}, bad {}, height {}".format(good, bad, height))
             header = await self.get_block_header(height, 'binary')
-            chain = blockchain.check_header(header) if 'mock' not in header else header['mock']['check'](header)
+            chain = blockchain.check_header(
+                header) if 'mock' not in header else header['mock']['check'](header)
             if chain:
-                self.blockchain = chain if isinstance(chain, Blockchain) else self.blockchain
+                self.blockchain = chain if isinstance(
+                    chain, Blockchain) else self.blockchain
                 good = height
             else:
                 bad = height
@@ -486,12 +520,15 @@ class Interface(PrintError):
                 break
 
         mock = 'mock' in bad_header and bad_header['mock']['connect'](height)
-        real = not mock and self.blockchain.can_connect(bad_header, check_height=False)
+        real = not mock and self.blockchain.can_connect(
+            bad_header, check_height=False)
         if not real and not mock:
-            raise Exception('unexpected bad header during binary: {}'.format(bad_header))
+            raise Exception(
+                'unexpected bad header during binary: {}'.format(bad_header))
         _assert_header_does_not_check_against_any_chain(bad_header)
 
-        self.print_error("binary search exited. good {}, bad {}".format(good, bad))
+        self.print_error(
+            "binary search exited. good {}, bad {}".format(good, bad))
         return good, bad, bad_header
 
     async def _resolve_potential_chain_fork_given_forkpoint(self, good, bad, bad_header):
@@ -518,13 +555,15 @@ class Interface(PrintError):
             # However, mining blocks that satisfy the difficulty requirements
             # is assumed to be expensive; especially as forks below the max
             # checkpoint are ignored.
-            self.print_error("new fork at bad height {}. conflict!!".format(bad))
+            self.print_error(
+                "new fork at bad height {}. conflict!!".format(bad))
             assert self.blockchain != branch
             ismocking = type(branch) is dict
             if ismocking:
                 self.print_error("TODO replace blockchain")
                 return 'fork_conflict', height
-            self.print_error('forkpoint conflicts with existing fork', branch.path())
+            self.print_error(
+                'forkpoint conflicts with existing fork', branch.path())
             self._raise_if_fork_conflicts_with_default_server(branch)
             await self._disconnect_from_interfaces_on_conflicting_blockchain(branch)
             branch.write(b'', 0)
@@ -533,11 +572,14 @@ class Interface(PrintError):
             return 'fork_conflict', height
         else:
             # No conflict. Just save the new fork.
-            self.print_error("new fork at bad height {}. NO conflict.".format(bad))
-            forkfun = self.blockchain.fork if 'mock' not in bad_header else bad_header['mock']['fork']
+            self.print_error(
+                "new fork at bad height {}. NO conflict.".format(bad))
+            forkfun = self.blockchain.fork if 'mock' not in bad_header else bad_header[
+                'mock']['fork']
             b = forkfun(bad_header)
             with blockchain.blockchains_lock:
-                assert bad not in blockchain.blockchains, (bad, list(blockchain.blockchains))
+                assert bad not in blockchain.blockchains, (bad, list(
+                    blockchain.blockchains))
                 blockchain.blockchains[bad] = b
             self.blockchain = b
             assert b.forkpoint == bad
@@ -545,18 +587,24 @@ class Interface(PrintError):
 
     def _raise_if_fork_conflicts_with_default_server(self, chain_to_delete: Blockchain) -> None:
         main_interface = self.network.interface
-        if not main_interface: return
-        if main_interface == self: return
+        if not main_interface:
+            return
+        if main_interface == self:
+            return
         chain_of_default_server = main_interface.blockchain
-        if not chain_of_default_server: return
+        if not chain_of_default_server:
+            return
         if chain_to_delete == chain_of_default_server:
-            raise GracefulDisconnect('refusing to overwrite blockchain of default server')
+            raise GracefulDisconnect(
+                'refusing to overwrite blockchain of default server')
 
     async def _disconnect_from_interfaces_on_conflicting_blockchain(self, chain: Blockchain) -> None:
         ifaces = await self.network.disconnect_from_interfaces_on_given_blockchain(chain)
-        if not ifaces: return
+        if not ifaces:
+            return
         servers = [interface.server for interface in ifaces]
-        self.print_error("forcing disconnect of other interfaces: {}".format(servers))
+        self.print_error(
+            "forcing disconnect of other interfaces: {}".format(servers))
 
     async def _search_headers_backwards(self, height, header):
         async def iterate():
@@ -566,18 +614,23 @@ class Interface(PrintError):
                 height = constants.net.max_checkpoint()
                 checkp = True
             header = await self.get_block_header(height, 'backward')
-            chain = blockchain.check_header(header) if 'mock' not in header else header['mock']['check'](header)
-            can_connect = blockchain.can_connect(header) if 'mock' not in header else header['mock']['connect'](height)
+            chain = blockchain.check_header(
+                header) if 'mock' not in header else header['mock']['check'](header)
+            can_connect = blockchain.can_connect(
+                header) if 'mock' not in header else header['mock']['connect'](height)
             if chain or can_connect:
                 return False
             if checkp:
-                raise GracefulDisconnect("server chain conflicts with checkpoints")
+                raise GracefulDisconnect(
+                    "server chain conflicts with checkpoints")
             return True
 
         bad, bad_header = height, header
         _assert_header_does_not_check_against_any_chain(bad_header)
-        with blockchain.blockchains_lock: chains = list(blockchain.blockchains.values())
-        local_max = max([0] + [x.height() for x in chains]) if 'mock' not in header else float('inf')
+        with blockchain.blockchains_lock:
+            chains = list(blockchain.blockchains.values())
+        local_max = max([0] + [x.height() for x in chains]
+                        ) if 'mock' not in header else float('inf')
         height = min(local_max + 1, height - 1)
         while await iterate():
             bad, bad_header = height, header
@@ -590,7 +643,8 @@ class Interface(PrintError):
 
 
 def _assert_header_does_not_check_against_any_chain(header: dict) -> None:
-    chain_bad = blockchain.check_header(header) if 'mock' not in header else header['mock']['check'](header)
+    chain_bad = blockchain.check_header(
+        header) if 'mock' not in header else header['mock']['check'](header)
     if chain_bad:
         raise Exception('bad_header must not check!')
 
@@ -609,8 +663,8 @@ def check_cert(host, cert):
     except:
         expired = True
 
-    m = "host: %s\n"%host
-    m += "has_expired: %s\n"% expired
+    m = "host: %s\n" % host
+    m += "has_expired: %s\n" % expired
     util.print_msg(m)
 
 
@@ -628,10 +682,11 @@ def test_certificates():
     mydir = os.path.join(config.path, "certs")
     certs = os.listdir(mydir)
     for c in certs:
-        p = os.path.join(mydir,c)
+        p = os.path.join(mydir, c)
         with open(p, encoding='utf-8') as f:
             cert = f.read()
         check_cert(c, cert)
+
 
 if __name__ == "__main__":
     test_certificates()
