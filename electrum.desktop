@@ -2,13 +2,13 @@
 # sudo desktop-file-install electrum.desktop
 
 [Desktop Entry]
-Comment=Lightweight Bitcoin Client
+Comment=Lightweight PKpay Client
 Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum %u"
 GenericName[en_US]=Bitcoin Wallet
 GenericName=Bitcoin Wallet
 Icon=electrum
-Name[en_US]=Electrum Bitcoin Wallet
-Name=Electrum Bitcoin Wallet
+Name[en_US]=Electrum PKpay Wallet
+Name=Electrum PKpay Wallet
 Categories=Finance;Network;
 StartupNotify=false
 Terminal=false
@@ -16,6 +16,3 @@ Type=Application
 MimeType=x-scheme-handler/bitcoin;
 Actions=Testnet;
 
-[Desktop Action Testnet]
-Exec=sh -c "PATH=\"\\$HOME/.local/bin:\\$PATH\"; electrum --testnet %u"
-Name=Testnet mode

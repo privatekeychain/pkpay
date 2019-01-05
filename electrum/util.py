@@ -627,7 +627,7 @@ def time_difference(distance_in_time, include_seconds):
 mainnet_block_explorers = {
     
     'PKcoin Explorer': ('http://seed.pkc.ink/',
-                        {'tx': 'tx/', 'addr': 'addresses/'})
+                        {'tx': 'tx/', 'addr': 'address/'})
 }
 
 testnet_block_explorers = {
