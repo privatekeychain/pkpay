@@ -1,0 +1,5117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-15 16:51+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: pkpay/exchange_rate.py:574
+msgid "  (No FX rate available)"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:70
+msgid " Balance"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:147
+msgid " confirmation"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:435 pkpay/plugins/safe_t/qt.py:320
+#: pkpay/plugins/trezor/qt.py:410
+#, python-format
+msgid "%2d minutes"
+msgstr ""
+
+#: pkpay/plugins/safe_t/qt.py:114 pkpay/plugins/trezor/qt.py:208
+#, python-format
+msgid "%d words"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:578
+msgid "&About"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:175 pkpay/gui/qt/main_window.py:524
+msgid "&Addresses"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:581
+msgid "&Documentation"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:584
+msgid "&Donate to server"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:564
+msgid "&Encrypt/decrypt message"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:520 pkpay/gui/qt/main_window.py:528
+#: pkpay/gui/qt/main_window.py:533
+msgid "&Export"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:503
+msgid "&File"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:525 pkpay/gui/qt/main_window.py:530
+msgid "&Filter"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:573
+msgid "&From QR code"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:570
+msgid "&From file"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:571
+msgid "&From text"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:572
+msgid "&From the blockchain"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:577
+msgid "&Help"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:529
+msgid "&History"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:519 pkpay/gui/qt/main_window.py:527
+msgid "&Import"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:513
+msgid "&Information"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:526
+msgid "&Labels"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:569
+msgid "&Load transaction"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:560
+msgid "&Network"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:535
+msgid "&New"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:506
+msgid "&New/Restore"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:579
+msgid "&Official website"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:505
+msgid "&Open"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:515
+msgid "&Password"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:567
+msgid "&Pay to many"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:532
+msgid "&Plot"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:561
+msgid "&Plugins"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:517
+msgid "&Private keys"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:510
+msgid "&Quit"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:504
+msgid "&Recently open"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:582
+msgid "&Report Bug"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:507
+msgid "&Save Copy"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:516
+msgid "&Seed"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:563
+msgid "&Sign/verify message"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:531
+msgid "&Summary"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:518
+msgid "&Sweep"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:556
+msgid "&Tools"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:550
+msgid "&View"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:512
+msgid "&Wallet"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:627
+msgid "(Touch {} of {})"
+msgstr ""
+
+#: pkpay/plugins/virtualkeyboard/qt.py:14
+msgid "+"
+msgstr ""
+
+#: pkpay/gui/qt/util.py:45
+msgid "1 day"
+msgstr ""
+
+#: pkpay/gui/qt/util.py:44
+msgid "1 hour"
+msgstr ""
+
+#: pkpay/gui/qt/util.py:46
+msgid "1 week"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:478
+msgid "1. Place this paper on a flat and well iluminated surface."
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:479
+msgid "2. Align your Revealer borderlines to the dashed lines on the top and left."
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:480
+msgid "3. Press slightly the Revealer against the paper and read the numbers that best match on the opposite sides. "
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:482
+msgid "4. Type the numbers in the software"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:187
+msgid "A backup is saved automatically when generating a new wallet."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:463
+msgid "A copy of your wallet file was created in"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:34
+msgid "A few examples"
+msgstr ""
+
+#: pkpay/plugin.py:443
+msgid "A library is probably missing."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:78
+msgid "A small fee will be charged on each transaction that uses the remote server.  You may check and modify your billing preferences once the installation is complete."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1146
+msgid "A suggested fee is automatically added to this field. You may override it. The suggested fee increases with the size of the transaction."
+msgstr ""
+
+#: pkpay/gui/kivy/main.kv:447
+msgid "About"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/about.kv:4
+msgid "About PKpay"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:227
+msgid "Accept"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:71
+msgid "Accept Word"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:304
+msgid "Acquisition price"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:397
+#: pkpay/gui/kivy/uix/dialogs/installwizard.py:1017
+msgid "Add Cosigner"
+msgstr ""
+
+#: pkpay/base_wizard.py:174
+msgid "Add a cosigner to your multi-sig wallet"
+msgstr ""
+
+#: pkpay/plugins/virtualkeyboard/__init__.py:4
+msgid "Add an optional virtual keyboard to the password dialog."
+msgstr ""
+
+#: pkpay/base_wizard.py:163
+msgid "Add cosigner"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1605 pkpay/gui/kivy/uix/screens.py:294
+msgid "Additional fees"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1085
+msgid "Additional {} satoshis are going to be added."
+msgstr ""
+
+#: pkpay/gui/qt/util.py:337 pkpay/gui/qt/address_list.py:67
+#: pkpay/gui/qt/main_window.py:2092 pkpay/gui/qt/main_window.py:2203
+#: pkpay/gui/qt/main_window.py:2283 pkpay/gui/qt/contact_list.py:96
+#: pkpay/gui/qt/address_dialog.py:47 pkpay/gui/qt/request_list.py:92
+#: pkpay/gui/qt/utxo_list.py:47
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:40
+msgid "Address"
+msgstr ""
+
+#: pkpay/gui/kivy/main.kv:101
+msgid "Address copied to clipboard"
+msgstr ""
+
+#: pkpay/plugins/hw_wallet/plugin.py:77 pkpay/wallet.py:1044
+#: pkpay/gui/qt/main_window.py:2235
+msgid "Address not in wallet."
+msgstr ""
+
+#: pkpay/gui/qt/address_dialog.py:59
+msgid "Address:"
+msgstr ""
+
+#: pkpay/gui/text.py:69
+msgid "Addresses"
+msgstr ""
+
+#: pkpay/wallet.py:728
+msgid "Addresses generated:"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:582 pkpay/plugins/safe_t/qt.py:487
+#: pkpay/plugins/trezor/qt.py:577
+msgid "Advanced"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:379 pkpay/plugins/safe_t/qt.py:254
+#: pkpay/plugins/trezor/qt.py:344
+msgid "After disabling passphrases, you can only pair this PKpay wallet if it had an empty passphrase.  If its passphrase was not empty, you will need to create a new wallet with the install wizard.  You can use this wallet again at any time by re-enabling passphrases and entering its passphrase."
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:46 pkpay/gui/qt/address_list.py:50
+#: pkpay/gui/qt/history_list.py:382 pkpay/gui/qt/history_list.py:406
+msgid "All"
+msgstr ""
+
+#: pkpay/plugins/greenaddress_instant/__init__.py:4
+msgid "Allows validating if your transactions have instant confirmations by GreenAddress"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1209
+msgid "Also, dust is not kept as change, but added to the fee."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1210
+msgid "Also, when batching RBF transactions, BIP 125 imposes a lower bound on the fee."
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:200
+msgid "Always check you backups."
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:310 pkpay/gui/qt/main_window.py:1126
+#: pkpay/gui/qt/main_window.py:1919 pkpay/gui/qt/invoice_list.py:45
+#: pkpay/gui/qt/request_list.py:92 pkpay/gui/qt/utxo_list.py:47
+#: pkpay/gui/text.py:109 pkpay/gui/text.py:180 pkpay/gui/stdio.py:107
+#: pkpay/gui/kivy/uix/ui_screens/send.kv:53
+#: pkpay/gui/kivy/uix/ui_screens/send.kv:54
+#: pkpay/gui/kivy/uix/ui_screens/receive.kv:89
+#: pkpay/gui/kivy/uix/ui_screens/receive.kv:90
+msgid "Amount"
+msgstr ""
+
+#: pkpay/plugins/hw_wallet/plugin.py:147
+msgid "Amount for OP_RETURN output must be zero."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:34
+msgid "Amount received"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:260
+msgid "Amount received:"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:262
+msgid "Amount sent:"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1598 pkpay/gui/kivy/uix/screens.py:288
+msgid "Amount to be sent"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1122
+msgid "Amount to be sent."
+msgstr ""
+
+#: pkpay/gui/qt/exception_window.py:46
+msgid "An Error Occurred"
+msgstr ""
+
+#: pkpay/plugins/cosigner_pool/qt.py:206
+#: pkpay/plugins/cosigner_pool/qt.py:211
+#: pkpay/plugins/cosigner_pool/qt.py:217
+msgid "An encrypted transaction was retrieved from cosigning pool."
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:183
+msgid "An uninitialized Digital Bitbox is detected."
+msgstr ""
+
+#: pkpay/base_wizard.py:285
+msgid "An unnamed {}"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3075
+msgid "Appearance"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:486 pkpay/plugins/safe_t/qt.py:368
+#: pkpay/plugins/trezor/qt.py:458
+msgid "Apply"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:426 pkpay/plugins/safe_t/qt.py:311
+#: pkpay/plugins/trezor/qt.py:401
+msgid ""
+"Are you SURE you want to wipe the device?\n"
+"Your wallet still has pkccoins in it!"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:319
+msgid "Are you sure you want to erase the Digital Bitbox?"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:390 pkpay/plugins/safe_t/qt.py:265
+#: pkpay/plugins/trezor/qt.py:355
+msgid "Are you sure you want to proceed?"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:585
+msgid "Are you sure you want to remove this transaction and {} child transactions?"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:582
+msgid "Are you sure you want to remove this transaction?"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1207
+msgid "At most 100 satoshis might be lost due to this rounding."
+msgstr ""
+
+#: pkpay/plugins/audio_modem/__init__.py:3
+msgid "Audio MODEM"
+msgstr ""
+
+#: pkpay/plugins/audio_modem/qt.py:49
+msgid "Audio Modem Settings"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:99
+msgid "Authorization"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:591
+msgid "Auto connect"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:36
+msgid "Auto-connect"
+msgstr ""
+
+#: pkpay/gui/qt/seed_dialog.py:76
+msgid "BIP39 seed"
+msgstr ""
+
+#: pkpay/gui/qt/seed_dialog.py:68
+msgid "BIP39 seeds can be imported in PKpay, so that users can access funds locked in other wallets."
+msgstr ""
+
+#: pkpay/gui/qt/seed_dialog.py:70
+msgid "BIP39 seeds do not include a version number, which compromises compatibility with future software."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:88 pkpay/gui/qt/installwizard.py:122
+#: pkpay/gui/qt/installwizard.py:123
+msgid "Back"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:67 pkpay/gui/qt/history_list.py:311
+#: pkpay/gui/qt/main_window.py:766 pkpay/gui/text.py:109
+#: pkpay/gui/text.py:142 pkpay/gui/stdio.py:107 pkpay/gui/stdio.py:119
+#: pkpay/gui/kivy/main.kv:394 pkpay/gui/kivy/uix/ui_screens/status.kv:33
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:52
+msgid "Balance"
+msgstr ""
+
+#: pkpay/gui/text.py:69
+msgid "Banner"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2840
+msgid "Base unit"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2837
+msgid "Base unit of your wallet."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2775
+msgid "Batch RBF transactions"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:610
+msgid "Before reporting a bug, upgrade to the most recent version of PKpay (latest release or git HEAD), and include the version number in your report."
+msgstr ""
+
+#: pkpay/plugins/audio_modem/qt.py:52
+msgid "Bit rate [kbps]: "
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/receive.kv:71
+msgid "PKcoin Address"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1535
+msgid "PKcoin Address is None"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:838
+msgid "PKCcoin address where the payment should be received. Note that each payment request uses a different PKCcoin address."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1144
+msgid "PKCcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:306
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:50
+msgid "Blockchain"
+msgstr ""
+
+#: pkpay/plugins/coldcard/qt.py:149
+msgid "Bootloader"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:462 pkpay/plugins/safe_t/qt.py:345
+#: pkpay/plugins/trezor/qt.py:435
+msgid "Bootloader Hash"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:762
+msgid "Bottom"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:123
+msgid "Broadcast"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1695
+msgid "Broadcasting transaction..."
+msgstr ""
+
+#: pkpay/plugins/coldcard/qt.py:148
+msgid "Build Date"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3263
+msgid "Bump Fee"
+msgstr ""
+
+#: pkpay/gui/qt/util.py:350
+msgid "CSV"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:472
+msgid "Calibration sheet"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:754
+msgid "Calibration values:"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3259
+#: pkpay/gui/kivy/uix/dialogs/tx_dialog.py:139
+msgid "Can't bump fee: unknown fee for original transaction."
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:490
+msgid "Can't plot history."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:205 pkpay/plugins/keepkey/qt.py:79
+#: pkpay/plugins/trezor/qt.py:64 pkpay/gui/qt/util.py:167
+#: pkpay/gui/qt/installwizard.py:88 pkpay/gui/qt/installwizard.py:123
+#: pkpay/gui/qt/installwizard.py:594
+msgid "Cancel"
+msgstr ""
+
+#: pkpay/plugins/ledger/ledger.py:278 pkpay/plugins/ledger/ledger.py:291
+#: pkpay/plugins/ledger/ledger.py:489
+msgid "Cancelled by user"
+msgstr ""
+
+#: pkpay/base_wizard.py:463
+msgid "Cannot add this cosigner:"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:934
+msgid "Cannot broadcast transaction"
+msgstr ""
+
+#: pkpay/wallet.py:765 pkpay/wallet.py:796
+msgid "Cannot bump fee"
+msgstr ""
+
+#: pkpay/gui/qt/__init__.py:268
+msgid "Cannot create window for wallet"
+msgstr ""
+
+#: pkpay/gui/qt/__init__.py:228 pkpay/gui/qt/__init__.py:247
+msgid "Cannot load wallet"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:228
+msgid "Cannot read file"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2239
+msgid "Cannot sign messages with this type of address:"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:305
+msgid "Capital Gains"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:478
+msgid "Capital gains"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:370
+#, python-brace-format
+msgid "Chain split detected at block {0}"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:46
+msgid "Change"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:346 pkpay/plugins/safe_t/qt.py:223
+#: pkpay/plugins/trezor/qt.py:313
+msgid "Change PIN"
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:61
+msgid "Change Password"
+msgstr ""
+
+#: pkpay/plugins/safe_t/qt.py:392 pkpay/plugins/trezor/qt.py:482
+msgid "Change..."
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:1055
+msgid "Changing PIN code."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:292
+msgid "Check this box to request a new secret. You will need to retype your seed."
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:22
+#: pkpay/plugins/safe_t/clientbase.py:24
+#: pkpay/plugins/trezor/clientbase.py:24
+msgid "Check your {} device to continue"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3205
+msgid "Child Pays for Parent"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:572
+msgid "Child pays for parent"
+msgstr ""
+
+#: pkpay/i18n.py:80
+msgid "Chinese Simplified"
+msgstr ""
+
+#: pkpay/i18n.py:81
+msgid "Chinese Traditional"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:397 pkpay/plugins/safe_t/qt.py:271
+#: pkpay/plugins/trezor/qt.py:361
+msgid "Choose Homescreen"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/installwizard.py:1038
+msgid "Choose PIN code"
+msgstr ""
+
+#: pkpay/base_wizard.py:544
+msgid "Choose Seed type"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:336
+msgid "Choose a backup file:"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:27
+msgid "Choose a password to encrypt your wallet keys."
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:122
+msgid "Choose a server"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2939
+msgid ""
+"Choose coin (UTXO) selection method.  The following are available:\n"
+"\n"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/server.kv:43
+msgid "Choose from peers"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:248
+msgid "Choose how to initialize your Digital Bitbox:"
+msgstr ""
+
+#: pkpay/plugins/keepkey/keepkey.py:161
+#: pkpay/plugins/safe_t/safe_t.py:166 pkpay/plugins/trezor/trezor.py:167
+msgid ""
+"Choose how you want to initialize your {}.\n"
+"\n"
+"The first two methods are secure as no secret information is entered into your computer.\n"
+"\n"
+"For the last two methods you input secrets on your keyboard and upload them to your {}, and so you should only do those on a computer you know to be trustworthy and free of malware."
+msgstr ""
+
+#: pkpay/plugins/safe_t/clientbase.py:23
+#: pkpay/plugins/trezor/clientbase.py:23
+msgid "Choose on your {} device where to enter your passphrase"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:636
+msgid "Choose the number of signatures needed to unlock funds in your wallet:"
+msgstr ""
+
+#: pkpay/base_wizard.py:335
+msgid "Choose the type of addresses in your wallet."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2863
+msgid "Choose which online block explorer to use for functions that open a web browser"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:137
+msgid "Choose your chain"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:169
+msgid "Choose..."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1247
+#: pkpay/gui/kivy/uix/ui_screens/send.kv:116
+msgid "Clear"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:518 pkpay/plugins/safe_t/qt.py:423
+#: pkpay/plugins/trezor/qt.py:513
+msgid "Clear the session after the specified period of inactivity.  Once a session has timed out, your PIN and passphrase (if enabled) must be re-entered to use the device."
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:34
+msgid "Click Pair button to begin pairing a mobile phone."
+msgstr ""
+
+#: pkpay/gui/qt/console.py:75
+msgid "Click here to hide this message."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/screens.py:238
+msgid "Clipboard is empty"
+msgstr ""
+
+#: pkpay/gui/qt/util.py:143 pkpay/gui/qt/__init__.py:153
+#: pkpay/gui/qt/qrcodewidget.py:126 pkpay/gui/qt/main_window.py:2301
+#: pkpay/gui/qt/main_window.py:2368
+#: pkpay/gui/qt/transaction_dialog.py:138
+#: pkpay/gui/kivy/uix/ui_screens/about.kv:54
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:82
+msgid "Close"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:176
+msgid "Co&ins"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:106
+msgid "Code"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2941
+#: pkpay/gui/kivy/uix/dialogs/settings.py:153
+msgid "Coin selection"
+msgstr ""
+
+#: pkpay/plugins/coldcard/qt.py:94
+msgid "Coldcard Status"
+msgstr ""
+
+#: pkpay/plugins/coldcard/__init__.py:6
+msgid "Coldcard Wallet"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2895
+msgid "Color theme"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:178
+msgid "Con&sole"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:177
+msgid "Con&tacts"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:425 pkpay/plugins/safe_t/qt.py:310
+#: pkpay/plugins/trezor/qt.py:400
+msgid "Confirm Device Wipe"
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:87
+msgid "Confirm Passphrase:"
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:102
+msgid "Confirm Password:"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:418
+#: pkpay/gui/kivy/uix/dialogs/installwizard.py:990
+msgid "Confirm Seed"
+msgstr ""
+
+#: pkpay/base_wizard.py:584
+msgid "Confirm Seed Extension"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:376 pkpay/plugins/safe_t/qt.py:251
+#: pkpay/plugins/trezor/qt.py:341
+msgid "Confirm Toggle Passphrase Protection"
+msgstr ""
+
+#: pkpay/plugins/ledger/ledger.py:413
+msgid "Confirm Transaction on your Ledger device..."
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:15
+#: pkpay/plugins/safe_t/clientbase.py:16
+#: pkpay/plugins/trezor/clientbase.py:17
+msgid "Confirm internal entropy on your {} device to begin"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/password_dialog.py:134
+msgid "Confirm new PIN"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:18
+#: pkpay/plugins/safe_t/clientbase.py:19
+#: pkpay/plugins/trezor/clientbase.py:20
+msgid "Confirm on your {} device the message to sign"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:179
+#: pkpay/plugins/safe_t/clientbase.py:181
+#: pkpay/plugins/trezor/clientbase.py:146
+msgid "Confirm on your {} device to change your PIN"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:172
+#: pkpay/plugins/safe_t/clientbase.py:174
+#: pkpay/plugins/trezor/clientbase.py:139
+msgid "Confirm on your {} device to change your home screen"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:177
+#: pkpay/plugins/safe_t/clientbase.py:179
+#: pkpay/plugins/trezor/clientbase.py:144
+msgid "Confirm on your {} device to disable PIN protection"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:161
+#: pkpay/plugins/safe_t/clientbase.py:163
+#: pkpay/plugins/trezor/clientbase.py:127
+msgid "Confirm on your {} device to disable passphrases"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:163
+#: pkpay/plugins/safe_t/clientbase.py:165
+#: pkpay/plugins/trezor/clientbase.py:129
+msgid "Confirm on your {} device to enable passphrases"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:181
+#: pkpay/plugins/safe_t/clientbase.py:183
+#: pkpay/plugins/trezor/clientbase.py:148
+msgid "Confirm on your {} device to set a PIN"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:17
+#: pkpay/plugins/safe_t/clientbase.py:18
+#: pkpay/plugins/trezor/clientbase.py:19
+msgid "Confirm on your {} that you want to wipe it clean"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:168
+#: pkpay/plugins/safe_t/clientbase.py:170
+#: pkpay/plugins/trezor/clientbase.py:135
+msgid "Confirm the new label on your {} device"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:19
+#: pkpay/plugins/safe_t/clientbase.py:20
+#: pkpay/plugins/trezor/clientbase.py:21
+msgid "Confirm the total amount spent and the transaction fee on your {} device"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:14
+#: pkpay/plugins/safe_t/clientbase.py:15
+#: pkpay/plugins/trezor/clientbase.py:16
+msgid "Confirm the transaction output on your {} device"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:21
+#: pkpay/plugins/safe_t/clientbase.py:22
+#: pkpay/plugins/trezor/clientbase.py:22
+msgid "Confirm wallet address on your {} device"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/status.kv:36
+msgid "Confirmed"
+msgstr ""
+
+#: pkpay/plugins/ledger/ledger.py:455 pkpay/plugins/ledger/ledger.py:479
+msgid "Confirmed. Signing Transaction..."
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:71
+msgid "Connected node"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:58
+msgid "Connected nodes are on the same chain"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:363
+#, python-brace-format
+msgid "Connected to {0} nodes."
+msgstr ""
+
+#: pkpay/wallet.py:735
+msgid "Connecting..."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:16
+msgid "Connections with PKpay servers"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:534 pkpay/gui/text.py:69
+msgid "Contacts"
+msgstr ""
+
+#: pkpay/gui/qt/util.py:149 pkpay/gui/qt/qrcodewidget.py:118
+#: pkpay/gui/kivy/uix/ui_screens/receive.kv:124
+msgid "Copy"
+msgstr ""
+
+#: pkpay/gui/qt/request_list.py:135
+msgid "Copy URI"
+msgstr ""
+
+#: pkpay/gui/qt/util.py:154
+msgid "Copy and Close"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/send.kv:36
+msgid "Copy and paste the recipient address using the Paste button, or use the camera to scan a QR code."
+msgstr ""
+
+#: pkpay/gui/qt/util.py:601
+msgid "Copy to clipboard"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:172 pkpay/gui/qt/history_list.py:557
+#: pkpay/gui/qt/contact_list.py:77 pkpay/gui/qt/invoice_list.py:84
+#: pkpay/gui/qt/request_list.py:134
+msgid "Copy {}"
+msgstr ""
+
+#: pkpay/base_wizard.py:180
+msgid "Cosign with hardware device"
+msgstr ""
+
+#: pkpay/plugins/cosigner_pool/__init__.py:2
+msgid "Cosigner Pool"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2407
+msgid "Could not decode QR code"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:235
+msgid "Could not retrieve Terms of Service:"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:511
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:524
+msgid "Could not sign message"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:488
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:501
+msgid "Could not sign message."
+msgstr ""
+
+#: pkpay/gui/qt/exception_window.py:102
+msgid "Crash report"
+msgstr ""
+
+#: pkpay/base_wizard.py:105
+msgid "Create"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:111
+msgid "Create a new Revealer"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:497 pkpay/base_wizard.py:167
+msgid "Create a new seed"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:227
+msgid "Create a wallet using the current seed"
+msgstr ""
+
+#: pkpay/base_wizard.py:218
+msgid "Create keystore from a master key"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:494
+msgid "Create or restore"
+msgstr ""
+
+#: pkpay/gui/qt/util.py:203
+msgid "Critical Error"
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:104
+msgid "Current Password:"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3266
+msgid "Current fee"
+msgstr ""
+
+#: pkpay/gui/qt/fee_slider.py:38
+msgid "Current rate"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:379 pkpay/gui/qt/history_list.py:406
+msgid "Custom"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:409
+msgid "Custom secret"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2892
+msgid "Dark"
+msgstr ""
+
+#: pkpay/gui/qt/__init__.py:154
+msgid "Dark/Light"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:308 pkpay/gui/qt/request_list.py:92
+#: pkpay/gui/text.py:109 pkpay/gui/stdio.py:107
+#: pkpay/gui/kivy/uix/dialogs/tx_dialog.py:114
+msgid "Date"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:249
+msgid "Date: {}"
+msgstr ""
+
+#: pkpay/base_wizard.py:275
+msgid "Debug message"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2364
+msgid "Decrypt"
+msgstr ""
+
+#: pkpay/i18n.py:46
+msgid "Default"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:233
+msgid "Default Servers"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:508 pkpay/gui/qt/main_window.py:1945
+#: pkpay/gui/qt/contact_list.py:85 pkpay/gui/qt/invoice_list.py:88
+#: pkpay/gui/qt/request_list.py:137
+#: pkpay/gui/kivy/uix/dialogs/requests.py:126
+#: pkpay/gui/kivy/uix/ui_screens/status.kv:81
+msgid "Delete"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1940
+#: pkpay/gui/kivy/uix/dialogs/invoices.py:158
+msgid "Delete invoice?"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/requests.py:146
+msgid "Delete request"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2153
+msgid "Delete wallet file?"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:1003
+msgid "Delete wallet?"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/settings.py:139
+msgid "Denomination"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:309 pkpay/gui/qt/main_window.py:846
+#: pkpay/gui/qt/main_window.py:1111 pkpay/gui/qt/invoice_list.py:45
+#: pkpay/gui/qt/request_list.py:92 pkpay/gui/qt/transaction_dialog.py:243
+#: pkpay/gui/text.py:109 pkpay/gui/text.py:179 pkpay/gui/stdio.py:107
+#: pkpay/gui/kivy/uix/ui_screens/send.kv:72
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:49
+#: pkpay/gui/kivy/uix/ui_screens/receive.kv:108
+msgid "Description"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1109
+msgid "Description of the transaction (not mandatory)."
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:173 pkpay/gui/qt/history_list.py:563
+#: pkpay/gui/qt/invoice_list.py:85 pkpay/gui/qt/utxo_list.py:86
+#: pkpay/gui/kivy/uix/dialogs/addresses.py:124
+msgid "Details"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/about.kv:35
+msgid "Developers"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:461 pkpay/plugins/safe_t/qt.py:344
+#: pkpay/plugins/trezor/qt.py:434
+msgid "Device ID"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:457 pkpay/plugins/keepkey/qt.py:482
+#: pkpay/plugins/safe_t/qt.py:340 pkpay/plugins/safe_t/qt.py:364
+#: pkpay/plugins/trezor/qt.py:430 pkpay/plugins/trezor/qt.py:454
+msgid "Device Label"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:130
+msgid "Device communication error. Please unplug and replug your Digital Bitbox."
+msgstr ""
+
+#: pkpay/plugins/ledger/ledger.py:195
+msgid "Device not in PKCcoin mode"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/__init__.py:5
+msgid "Digital Bitbox wallet"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:209
+msgid "Digital Revealer ({}_{}) saved as PNG and PDF at:"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:540 pkpay/plugins/safe_t/qt.py:445
+#: pkpay/plugins/trezor/qt.py:535
+msgid "Disable PIN"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:344 pkpay/plugins/safe_t/qt.py:221
+#: pkpay/plugins/trezor/qt.py:311
+msgid "Disable Passphrases"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:345 pkpay/plugins/safe_t/qt.py:222
+#: pkpay/plugins/trezor/qt.py:312
+msgid "Disabled"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:732
+msgid "Disconnected"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1245
+msgid "Display the details of your transaction before signing it."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/about.kv:41
+msgid "Distributed by PKpay Technologies GmbH"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:291
+msgid "Do not pair"
+msgstr ""
+
+#: pkpay/gui/qt/console.py:73
+msgid "Do not paste code here that you don't understand. Executing the wrong code could lead to your coins being irreversibly lost."
+msgstr ""
+
+#: pkpay/gui/qt/seed_dialog.py:46
+msgid "Do not store it electronically."
+msgstr ""
+
+#: pkpay/plugins/revealer/__init__.py:5
+msgid "Do you have something to hide ?"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:495 pkpay/base_wizard.py:165
+msgid "Do you want to create a new seed, or to restore a wallet using an existing seed?"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:308
+msgid "Do you want to delete '{}'?"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:296
+msgid "Do you want to delete the old file"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:564
+msgid "Do you want to launch the wizard again?"
+msgstr ""
+
+#: pkpay/plugins/cosigner_pool/qt.py:218
+msgid "Do you want to open it now?"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1845
+msgid "Do you want to remove {} from your wallet?"
+msgstr ""
+
+#: pkpay/base_crash_reporter.py:58
+msgid "Do you want to send this report?"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1525
+msgid "Do you wish to continue?"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:43
+msgid "Due to a bug, old versions of PKpay will NOT be creating the same wallet as newer versions or other software."
+msgstr ""
+
+#: pkpay/util.py:98
+msgid "Dynamic fee estimates not available"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2744
+msgid "ETA"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:129
+msgid "Each revealer should be used only once."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2753
+msgid "Edit fees manually"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:175 pkpay/gui/qt/history_list.py:562
+#: pkpay/gui/qt/contact_list.py:83
+msgid "Edit {}"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:278
+msgid "PKpay App"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3139
+msgid "PKpay Plugins"
+msgstr ""
+
+#: pkpay/plugin.py:492
+msgid ""
+"PKpay cannot pair with your {}.\n"
+"\n"
+"Before you request pkccoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all pkccoins you receive will be unspendable."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:585
+msgid "PKpay communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let PKpay pick one at random.  However if you prefer feel free to select a server manually."
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:290
+msgid "PKpay connects to several nodes in order to download block headers and find out the longest blockchain."
+msgstr ""
+
+#: pkpay/base_wizard.py:598
+msgid "PKpay is generating your addresses, please wait..."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:559
+msgid "PKpay preferences"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/server.kv:9
+msgid "PKpay requests your transaction history from a single server. The returned history is checked against blockchain headers sent by other nodes, using Simple Payment Verification (SPV)."
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:299
+msgid "PKpay sends your wallet addresses to a single server, in order to receive your transaction history."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:184
+msgid "PKpay wallet"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:465
+msgid "Pkapy was unable to copy your wallet file to the specified location."
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:59
+msgid "PKpay was unable to deserialize the transaction:"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2422
+msgid "PKpay was unable to open your transaction file"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2387
+msgid "PKpay was unable to parse your transaction"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2534
+msgid "PKpay was unable to produce a private key-export."
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:625
+msgid "PKpay was unable to produce a transaction export."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:599
+msgid "PKpay's focus is speed, with low resource usage and simplifying PKCcoin."
+msgstr ""
+
+#: pkpay/plugins/email_requests/__init__.py:3
+msgid "Email"
+msgstr ""
+
+#: pkpay/plugins/email_requests/qt.py:209
+msgid "Email settings"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:245 pkpay/plugins/safe_t/qt.py:119
+#: pkpay/plugins/trezor/qt.py:213
+msgid "Enable PIN protection"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:344 pkpay/plugins/safe_t/qt.py:221
+#: pkpay/plugins/trezor/qt.py:311
+msgid "Enable Passphrases"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2964
+msgid "Enable output value rounding"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:279 pkpay/plugins/safe_t/qt.py:153
+#: pkpay/plugins/trezor/qt.py:222
+msgid "Enable passphrases"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:345 pkpay/plugins/safe_t/qt.py:222
+#: pkpay/plugins/trezor/qt.py:312
+msgid "Enabled"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2360
+msgid "Encrypt"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:269
+msgid "Encrypt custom secret"
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:124
+#: pkpay/gui/qt/password_dialog.py:205
+msgid "Encrypt wallet file"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:250
+msgid "Encrypt {}'s seed"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2337
+msgid "Encrypt/decrypt Message"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:181
+msgid "Encrypt/decrypt message"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2355
+msgid "Encrypted"
+msgstr ""
+
+#: pkpay/plugins/coldcard/coldcard.py:324
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:469
+#: pkpay/plugins/ledger/ledger.py:261
+msgid "Encryption and decryption are currently not supported for {}"
+msgstr ""
+
+#: pkpay/plugins/keepkey/keepkey.py:33 pkpay/plugins/safe_t/safe_t.py:34
+#: pkpay/plugins/trezor/trezor.py:58
+msgid "Encryption and decryption are not implemented by {}"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:466
+msgid "End"
+msgstr ""
+
+#: pkpay/i18n.py:54
+msgid "English"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:170 pkpay/plugins/safe_t/qt.py:53
+#: pkpay/plugins/trezor/qt.py:142 pkpay/gui/kivy/main_window.py:801
+msgid "Enter PIN"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:543
+msgid "Enter PIN code"
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:110
+#: pkpay/plugins/ledger/auth2fa.py:143
+msgid "Enter PIN:"
+msgstr ""
+
+#: pkpay/plugins/hw_wallet/qt.py:118 pkpay/gui/qt/password_dialog.py:61
+msgid "Enter Passphrase"
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:61 pkpay/gui/qt/password_dialog.py:290
+msgid "Enter Password"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:411
+#: pkpay/gui/kivy/uix/dialogs/installwizard.py:767
+msgid "Enter Seed"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/screens.py:133
+msgid "Enter Transaction Label"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:456
+msgid "Enter a filename for the copy of your wallet"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:217 pkpay/plugins/safe_t/qt.py:93
+#: pkpay/plugins/trezor/qt.py:188
+msgid "Enter a label to name your device:"
+msgstr ""
+
+#: pkpay/base_wizard.py:187
+msgid "Enter a list of PKCcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1865
+msgid "Enter a list of outputs in the 'Pay to' field."
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:46
+#: pkpay/plugins/safe_t/clientbase.py:48
+#: pkpay/plugins/trezor/clientbase.py:230
+msgid "Enter a new PIN for your {}:"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:184
+msgid "Enter a new password below."
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:62
+#: pkpay/plugins/safe_t/clientbase.py:67
+#: pkpay/plugins/trezor/clientbase.py:246
+msgid "Enter a passphrase to generate this wallet.  Each time you use this wallet your {} will prompt you for the passphrase.  If you forget the passphrase you cannot access the pkccoins in the wallet."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2664
+msgid "Enter addresses"
+msgstr ""
+
+#: pkpay/base_wizard.py:176
+msgid "Enter cosigner key"
+msgstr ""
+
+#: pkpay/base_wizard.py:177
+msgid "Enter cosigner seed"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:941
+msgid "Enter description"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/password_dialog.py:129
+msgid "Enter new PIN"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:148
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:151
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:163
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:166
+msgid "Enter password:"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2673
+msgid "Enter private keys"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2581
+msgid "Enter private keys:"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:253 pkpay/plugins/safe_t/qt.py:127
+msgid "Enter the master private key beginning with xprv:"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:67
+#: pkpay/plugins/safe_t/clientbase.py:72
+#: pkpay/plugins/trezor/clientbase.py:251
+msgid "Enter the passphrase to unlock this wallet:"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:141
+msgid "Enter the password used when the backup was created:"
+msgstr ""
+
+#: pkpay/plugins/trezor/qt.py:35
+msgid ""
+"Enter the recovery words by pressing the buttons according to what the device shows on its display.  You can also use your NUMPAD.\n"
+"Press BACKSPACE to go back a choice or word.\n"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:101
+msgid "Enter the seed for your 2-factor wallet:"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:400
+msgid "Enter their master private key (xprv) if you want to be able to sign for them."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/wallets.py:60
+msgid "Enter wallet name"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:251 pkpay/plugins/safe_t/qt.py:125
+msgid "Enter your BIP39 mnemonic:"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:194
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:204
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:209
+msgid "Enter your Digital Bitbox password:"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:266 pkpay/plugins/safe_t/qt.py:140
+msgid "Enter your PIN (digits 1-9):"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:1078
+msgid "Enter your PIN code in order to decrypt your private key"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:1028
+msgid "Enter your PIN code in order to decrypt your seed"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/tx_dialog.py:164
+msgid "Enter your PIN code in order to sign this transaction"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:1009
+msgid "Enter your PIN code to confirm deletion of {}"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/screens.py:298
+msgid "Enter your PIN code to proceed"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:1055
+msgid "Enter your current PIN:"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:51
+#: pkpay/plugins/safe_t/clientbase.py:53
+#: pkpay/plugins/trezor/clientbase.py:235
+msgid "Enter your current {} PIN:"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/installwizard.py:657
+msgid "Enter your email address:"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:214
+msgid "Enter your password or choose another file."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1613
+msgid "Enter your password to proceed"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:229
+msgid "Erase the Digital Bitbox"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/kivy.py:69
+#: pkpay/plugins/trustedcoin/kivy.py:71
+#: pkpay/plugins/trustedcoin/kivy.py:84
+#: pkpay/plugins/trustedcoin/trustedcoin.py:646 pkpay/gui/qt/util.py:199
+#: pkpay/gui/qt/installwizard.py:261 pkpay/gui/qt/installwizard.py:265
+#: pkpay/gui/qt/installwizard.py:272 pkpay/gui/qt/installwizard.py:279
+#: pkpay/gui/qt/__init__.py:227 pkpay/gui/qt/__init__.py:246
+#: pkpay/gui/qt/__init__.py:267
+msgid "Error"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:978 pkpay/gui/kivy/uix/screens.py:401
+msgid "Error adding payment request"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/kivy.py:82
+msgid "Error connecting to server"
+msgstr ""
+
+#: pkpay/plugins/cosigner_pool/qt.py:230
+msgid "Error decrypting message"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2448
+msgid "Error getting transaction from network"
+msgstr ""
+
+#: pkpay/gui/qt/qrtextedit.py:54
+msgid "Error opening file"
+msgstr ""
+
+#: pkpay/base_wizard.py:243
+msgid "Error scanning devices"
+msgstr ""
+
+#: pkpay/plugins/coldcard/coldcard.py:373
+#: pkpay/plugins/coldcard/coldcard.py:591
+#: pkpay/plugins/ledger/ledger.py:527
+msgid "Error showing address"
+msgstr ""
+
+#: pkpay/plugins/labels/qt.py:66
+msgid "Error synchronising labels"
+msgstr ""
+
+#: pkpay/base_wizard.py:457
+msgid "Error: duplicate master public key"
+msgstr ""
+
+#: pkpay/gui/qt/fee_slider.py:40
+msgid "Estimate"
+msgstr ""
+
+#: pkpay/gui/qt/__init__.py:156
+msgid "Exit PKpay"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:475
+msgid "Expenditures"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:46
+msgid "Expiration"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:866
+msgid "Expiration date of your request."
+msgstr ""
+
+#: pkpay/gui/qt/util.py:40 pkpay/gui/kivy/uix/dialogs/requests.py:92
+#: pkpay/gui/kivy/uix/dialogs/invoices.py:88
+msgid "Expired"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:868
+msgid "Expired requests have to be deleted manually from your list, in order to free the corresponding PKCcoin addresses."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1928 pkpay/gui/qt/invoice_list.py:45
+msgid "Expires"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:613 pkpay/gui/qt/main_window.py:537
+#: pkpay/gui/qt/main_window.py:540 pkpay/gui/qt/main_window.py:2481
+#: pkpay/gui/qt/transaction_dialog.py:135
+msgid "Export"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:605
+msgid "Export History"
+msgstr ""
+
+#: pkpay/gui/qt/contact_list.py:72
+msgid "Export file"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:87
+msgid "Export private key"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2468
+msgid "Exposing a single private key can compromise your entire wallet!"
+msgstr ""
+
+#: pkpay/gui/qt/seed_dialog.py:57
+msgid "Extend this seed with custom words"
+msgstr ""
+
+#: pkpay/plugins/coldcard/coldcard.py:667
+#: pkpay/plugins/keepkey/keepkey.py:245
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:727
+#: pkpay/plugins/ledger/ledger.py:589 pkpay/plugins/safe_t/safe_t.py:262
+#: pkpay/plugins/trezor/trezor.py:259
+msgid "Failed to create a client for this device."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:273
+msgid "Failed to decrypt using this hardware device."
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:192
+#: pkpay/gui/qt/transaction_dialog.py:195
+#: pkpay/gui/kivy/main_window.py:419
+msgid "Failed to display QR code."
+msgstr ""
+
+#: pkpay/util.py:119
+msgid "Failed to export to file."
+msgstr ""
+
+#: pkpay/util.py:111
+msgid "Failed to import from file."
+msgstr ""
+
+#: pkpay/plugins/cosigner_pool/qt.py:181
+msgid "Failed to send transaction to cosigning pool"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2061
+msgid "Failed to update password"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2109
+msgid "False"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1147
+#: pkpay/gui/qt/transaction_dialog.py:264 pkpay/gui/text.py:181
+#: pkpay/gui/kivy/uix/ui_screens/send.kv:90
+msgid "Fee"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2742
+msgid "Fee estimation"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3235
+msgid "Fee:"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3073
+msgid "Fees"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3076
+msgid "Fiat"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3066
+msgid "Fiat currency"
+msgstr ""
+
+#: pkpay/gui/qt/util.py:371
+msgid "File"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:56
+msgid "Filter:"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3277
+msgid "Final"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:469
+msgid "Final balance"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:543
+msgid "Find"
+msgstr ""
+
+#: pkpay/plugins/coldcard/qt.py:147 pkpay/plugins/keepkey/qt.py:460
+#: pkpay/plugins/safe_t/qt.py:343 pkpay/plugins/trezor/qt.py:433
+msgid "Firmware Version"
+msgstr ""
+
+#: pkpay/plugins/ledger/ledger.py:33
+msgid "Firmware version (or \"PKCcoin\" app) too old for Segwit support. Please update at"
+msgstr ""
+
+#: pkpay/plugins/ledger/ledger.py:31
+msgid "Firmware version too old. Please update at"
+msgstr ""
+
+#: pkpay/gui/qt/fee_slider.py:40
+msgid "Fixed rate"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:86
+msgid "Follow this branch"
+msgstr ""
+
+#: pkpay/plugins/revealer/__init__.py:7
+#: pkpay/plugins/trustedcoin/__init__.py:6
+#: pkpay/plugins/trustedcoin/qt.py:157
+msgid "For more information, visit"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:56
+msgid "Fork detected at block {}"
+msgstr ""
+
+#: pkpay/gui/qt/util.py:347
+msgid "Format"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1867
+msgid "Format: address, amount"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:189
+msgid "Freeze"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:394 pkpay/gui/qt/main_window.py:1116
+msgid "From"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:627
+#, python-brace-format
+msgid "From {0} cosigners"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:242
+msgid "Full 2FA enabled. This is not supported yet."
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:50
+#: pkpay/gui/kivy/uix/dialogs/addresses.py:120
+msgid "Funded"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:250
+msgid "Generate a new random wallet"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:283
+msgid "Google Authenticator code:"
+msgstr ""
+
+#: pkpay/plugins/greenaddress_instant/qt.py:75
+msgid ""
+"GreenAddress requires your signature \n"
+"to verify that transaction is instant.\n"
+"Please enter your password to sign a\n"
+"verification request."
+msgstr ""
+
+#: pkpay/plugin.py:443
+msgid "Handler not found for"
+msgstr ""
+
+#: pkpay/base_wizard.py:233
+msgid "Hardware Keystore"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:71 pkpay/gui/qt/utxo_list.py:47
+msgid "Height"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:839
+msgid "Hello World"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:575
+msgid "Here is your master public key."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:257 pkpay/gui/qt/main_window.py:547
+msgid "Hide"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:87
+msgid "Hide private key"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/status.kv:74
+msgid "Hide seed"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:163 pkpay/gui/qt/address_dialog.py:89
+#: pkpay/gui/text.py:69
+msgid "History"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/about.kv:25
+msgid "Homepage"
+msgstr ""
+
+#: pkpay/plugins/safe_t/qt.py:391 pkpay/plugins/trezor/qt.py:481
+msgid "Homescreen"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:139
+#: pkpay/gui/kivy/uix/ui_screens/proxy.kv:19
+#: pkpay/gui/kivy/uix/ui_screens/server.kv:19
+msgid "Host"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:592
+msgid "How do you want to connect to a server? "
+msgstr ""
+
+#: pkpay/plugins/cosigner_pool/qt.py:207
+msgid "However, hardware wallets do not support message decryption, which makes them not compatible with the current design of cosigner pool."
+msgstr ""
+
+#: pkpay/gui/qt/seed_dialog.py:69
+msgid "However, we do not generate BIP39 seeds, because they do not meet our safety standard."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:498 pkpay/base_wizard.py:168
+msgid "I already have a seed"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:291
+msgid "I have lost my Google Authenticator account"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3077
+msgid "Identity"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:223
+msgid "If auto-connect is enabled, PKpay will always use a server that is on the longest blockchain."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2968
+msgid "If enabled, at most 100 satoshis might be lost due to this, per transaction."
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:224
+msgid "If it is disabled, you have to choose a server you want to use. PKpay will warn you if your server is lagging."
+msgstr ""
+
+#: pkpay/base_wizard.py:338
+msgid "If you are not sure what this is, leave this field unchanged."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:206
+msgid "If you are online, click on \"{}\" to continue."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2766
+msgid "If you check this box, your transactions will be marked as non-final,"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2779
+msgid "If you check this box, your unconfirmed transactions will be consolidated into a single transaction."
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:543 pkpay/plugins/safe_t/qt.py:448
+#: pkpay/plugins/trezor/qt.py:538
+msgid "If you disable your PIN, anyone with physical access to your {} device can spend your pkccoins."
+msgstr ""
+
+#: pkpay/base_wizard.py:396
+msgid "If you do not know what this is, leave this field empty."
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:30 pkpay/plugins/safe_t/qt.py:30
+#: pkpay/plugins/trezor/qt.py:31
+msgid "If you forget a passphrase you will be unable to access any pkccoins in the wallet behind it.  A passphrase is not a PIN. Only change this if you are sure you understand it."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/installwizard.py:727
+msgid "If you forget your PIN or lose your device, your seed phrase will be the only way to recover your funds."
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:745
+msgid "If you have an old printer, or want optimal precision"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/installwizard.py:620
+msgid "If you have lost your Google Authenticator account, you can request a new secret. You will need to retype your seed."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:109
+msgid "If you have lost your second factor, you need to restore your wallet from seed in order to request a new code."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:421
+msgid "If you lose your seed, your money will be permanently lost."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:274
+msgid "If you use a passphrase, make sure it is correct."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1016
+msgid "If you want to create new addresses, use a deterministic wallet instead."
+msgstr ""
+
+#: pkpay/base_wizard.py:273
+msgid "If your device is not detected on Windows, go to \"Settings\", \"Devices\", \"Connected devices\", and do \"Remove device\". Then, plug your device again."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2155
+msgid "If your wallet contains funds, make sure you have saved its seed."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:536 pkpay/gui/qt/main_window.py:539
+#: pkpay/gui/qt/main_window.py:2643
+msgid "Import"
+msgstr ""
+
+#: pkpay/base_wizard.py:186
+msgid "Import PKCcoin Addresses"
+msgstr ""
+
+#: pkpay/base_wizard.py:113
+msgid "Import PKCcoin addresses or private keys"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:521 pkpay/gui/qt/main_window.py:2664
+msgid "Import addresses"
+msgstr ""
+
+#: pkpay/gui/qt/contact_list.py:71
+msgid "Import file"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:292
+msgid "Import pairing from the Digital Bitbox desktop app"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2671
+msgid "Import private keys"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2469
+msgid "In particular, DO NOT use 'redeem private key' services proposed by third parties."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2924
+msgid "In some cases, use up to 3 change addresses in order to break up large coin amounts and obfuscate the recipient address."
+msgstr ""
+
+#: pkpay/simple_config.py:390
+msgid "In the next block"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:472
+msgid "Income"
+msgstr ""
+
+#: pkpay/util.py:103
+msgid "Incorrect password"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:202
+msgid "Incorrect password entered."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:699
+msgid "Incorrect seed"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:568
+msgid "Increase fee"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3265
+msgid "Increase your transaction's fee to improve its position in mempool."
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:580 pkpay/plugins/safe_t/qt.py:485
+#: pkpay/plugins/trezor/qt.py:575 pkpay/gui/qt/util.py:207
+#: pkpay/gui/qt/main_window.py:439
+msgid "Information"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:463
+msgid "Initial balance"
+msgstr ""
+
+#: pkpay/plugins/ledger/qt.py:80
+msgid "Initialization of Ledger HW devices is currently disabled."
+msgstr ""
+
+#: pkpay/plugins/keepkey/keepkey.py:188
+#: pkpay/plugins/safe_t/safe_t.py:193 pkpay/plugins/trezor/trezor.py:195
+msgid "Initialize Device"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:465 pkpay/plugins/safe_t/qt.py:347
+#: pkpay/plugins/trezor/qt.py:437
+msgid "Initialized"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3222
+msgid "Input amount"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2427
+msgid "Input raw transaction"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:280
+msgid "Inputs"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:113
+msgid "Install Wizard"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2883
+msgid "Install the zbar package to enable this."
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:475
+msgid "Instructions:"
+msgstr ""
+
+#: pkpay/util.py:93
+msgid "Insufficient funds"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1885
+msgid "Invalid Address"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1541 pkpay/gui/text.py:345
+#: pkpay/gui/stdio.py:175
+msgid "Invalid Amount"
+msgstr ""
+
+#: pkpay/plugins/hw_wallet/plugin.py:74 pkpay/gui/qt/main_window.py:1538
+#: pkpay/gui/kivy/uix/screens.py:254
+msgid "Invalid PKcoin Address"
+msgstr ""
+
+#: pkpay/gui/text.py:340 pkpay/gui/stdio.py:170
+msgid "Invalid Bitcoin address"
+msgstr ""
+
+#: pkpay/wallet.py:1042 pkpay/gui/qt/main_window.py:2229
+#: pkpay/gui/qt/main_window.py:2257
+msgid "Invalid Bitcoin address."
+msgstr ""
+
+#: pkpay/gui/text.py:350 pkpay/gui/stdio.py:180
+msgid "Invalid Fee"
+msgstr ""
+
+#: pkpay/util.py:859
+msgid "Invalid JSON code."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1517
+msgid "Invalid Lines found:"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:901
+#: pkpay/gui/kivy/uix/dialogs/tx_dialog.py:174
+msgid "Invalid PIN"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2331
+msgid "Invalid Public key"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/screens.py:259
+msgid "Invalid amount"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1765
+msgid "Invalid pkccoin URI:"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/kivy.py:67
+#: pkpay/plugins/trustedcoin/trustedcoin.py:678
+msgid "Invalid one-time password."
+msgstr ""
+
+#: pkpay/plugins/coldcard/coldcard.py:196
+msgid "Invalid xpub magic. Make sure your {} device is set to the correct chain."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1914
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:17
+msgid "Invoice"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/screens.py:227
+msgid "Invoice saved"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1937
+msgid "Invoice saved as "
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:538 pkpay/gui/qt/main_window.py:1303
+#: pkpay/gui/kivy/uix/ui_screens/send.kv:101
+msgid "Invoices"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:31
+msgid "It also contains your master public key that allows watching your addresses."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2461
+msgid "It cannot be \"backed up\" by simply exporting these private keys."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3302
+msgid "It conflicts with current history."
+msgstr ""
+
+#: pkpay/plugins/cosigner_pool/__init__.py:5
+msgid "It sends and receives partially signed transactions from/to your cosigner wallet."
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:55
+msgid "KeepKey Seed Recovery"
+msgstr ""
+
+#: pkpay/plugins/keepkey/__init__.py:6
+msgid "KeepKey wallet"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1125
+msgid "Keyboard shortcut: type \"!\" to send all your coins."
+msgstr ""
+
+#: pkpay/base_wizard.py:163
+msgid "Keystore"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2122
+msgid "Keystore type"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:67 pkpay/gui/qt/utxo_list.py:47
+msgid "Label"
+msgstr ""
+
+#: pkpay/plugins/labels/qt.py:37
+msgid "Label Settings"
+msgstr ""
+
+#: pkpay/plugins/labels/__init__.py:3
+msgid "LabelSync"
+msgstr ""
+
+#: pkpay/plugins/labels/__init__.py:6
+msgid "Labels, transactions IDs and addresses are encrypted before they are sent to the remote server."
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:464 pkpay/plugins/safe_t/qt.py:346
+#: pkpay/plugins/trezor/qt.py:436 pkpay/gui/qt/main_window.py:2698
+#: pkpay/gui/kivy/uix/dialogs/settings.py:131
+msgid "Language"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:28
+msgid "Leave this field empty if you want to disable encryption."
+msgstr ""
+
+#: pkpay/plugins/ledger/qt.py:50
+msgid "Ledger Status"
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:49
+msgid "Ledger Wallet Authentication"
+msgstr ""
+
+#: pkpay/plugins/ledger/__init__.py:6
+msgid "Ledger wallet"
+msgstr ""
+
+#: pkpay/base_wizard.py:555
+msgid "Legacy"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:505
+msgid "Legacy 2FA"
+msgstr ""
+
+#: pkpay/plugins/keepkey/keepkey.py:171
+#: pkpay/plugins/safe_t/safe_t.py:176 pkpay/plugins/trezor/trezor.py:177
+msgid "Let the device generate a completely new seed randomly"
+msgstr ""
+
+#: pkpay/plugins/hw_wallet/plugin.py:111
+msgid "Library version for '{}' is incompatible."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/about.kv:19
+msgid "Licence"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2891
+msgid "Light"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1517
+msgid "Line #"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:251
+msgid "Load a wallet from the micro SD card"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:228
+msgid "Load a wallet from the micro SD card (the current seed is overwritten)"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2427
+msgid "Load transaction"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:344
+msgid "Loading backup..."
+msgstr ""
+
+#: pkpay/wallet.py:75 pkpay/wallet.py:357
+msgid "Local"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2441
+msgid "Lookup transaction"
+msgstr ""
+
+#: pkpay/simple_config.py:388
+msgid "Low fee"
+msgstr ""
+
+#: pkpay/plugins/coldcard/coldcard.py:668
+#: pkpay/plugins/keepkey/keepkey.py:246
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:728
+#: pkpay/plugins/ledger/ledger.py:590 pkpay/plugins/safe_t/safe_t.py:263
+#: pkpay/plugins/trezor/trezor.py:260
+msgid "Make sure it is in the correct state."
+msgstr ""
+
+#: pkpay/plugins/hw_wallet/plugin.py:124
+msgid "Make sure you install it with python3"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:437
+msgid "Make sure you own the seed phrase or the private keys, before you request PKCcoins to be sent to this wallet."
+msgstr ""
+
+#: pkpay/plugins/coldcard/qt.py:150
+msgid "Master Fingerprint"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:581 pkpay/gui/qt/main_window.py:2143
+#: pkpay/gui/kivy/main_window.py:625 pkpay/gui/kivy/main_window.py:627
+#: pkpay/gui/kivy/uix/dialogs/installwizard.py:890
+#: pkpay/gui/kivy/uix/dialogs/installwizard.py:894
+#: pkpay/gui/kivy/uix/ui_screens/status.kv:58
+#: pkpay/gui/kivy/uix/ui_screens/status.kv:61
+msgid "Master Public Key"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2140
+msgid "Master Public Keys"
+msgstr ""
+
+#: pkpay/plugins/trezor/qt.py:245
+msgid "Matrix"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1137
+msgid "Max"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3250
+msgid "Max fee exceeded"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1923
+msgid "Memo"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2744
+msgid "Mempool"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2739
+msgid "Mempool based: fee rate is targeting a depth in the memory pool"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/tx_dialog.py:117
+msgid "Mempool depth"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2277 pkpay/gui/qt/main_window.py:2343
+msgid "Message"
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:84
+msgid "Method:"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1599 pkpay/gui/kivy/uix/screens.py:289
+msgid "Mining fee"
+msgstr ""
+
+#: pkpay/plugins/hw_wallet/plugin.py:123
+msgid "Missing libraries for {}."
+msgstr ""
+
+#: pkpay/base_crash_reporter.py:66
+msgid "Missing report URL."
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:179
+msgid "Mobile - Not paired"
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:181
+msgid "Mobile - {}"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:295
+msgid "Mobile pairing options"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:638
+msgid "Multi-Signature Wallet"
+msgstr ""
+
+#: pkpay/base_wizard.py:112
+msgid "Multi-signature wallet"
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:112
+#: pkpay/plugins/ledger/auth2fa.py:150
+msgid "NOT DEVICE PIN - see above"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2094 pkpay/gui/qt/contact_list.py:96
+msgid "Name"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:478 pkpay/plugins/safe_t/qt.py:360
+#: pkpay/plugins/trezor/qt.py:450
+msgid "Name this {}.  If you have multiple devices their labels help distinguish them."
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:47 pkpay/gui/qt/main_window.py:2014
+#: pkpay/gui/text.py:155 pkpay/gui/kivy/main.kv:453
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:3
+msgid "Network"
+msgstr ""
+
+#: pkpay/interface.py:120
+msgid "Network request timed out."
+msgstr ""
+
+#: pkpay/gui/qt/util.py:47 pkpay/gui/qt/invoice_list.py:52
+#: pkpay/gui/qt/exception_window.py:79 pkpay/gui/qt/request_list.py:57
+#: pkpay/gui/kivy/uix/dialogs/invoices.py:128
+msgid "Never"
+msgstr ""
+
+#: pkpay/gui/qt/seed_dialog.py:44
+msgid "Never disclose your seed."
+msgstr ""
+
+#: pkpay/gui/qt/seed_dialog.py:45
+msgid "Never type it on a website."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:882
+#: pkpay/gui/kivy/uix/ui_screens/receive.kv:139
+msgid "New"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2084 pkpay/gui/qt/main_window.py:2086
+msgid "New Contact"
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:101
+msgid "New Password:"
+msgstr ""
+
+#: pkpay/gui/qt/contact_list.py:70
+msgid "New contact"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3267
+msgid "New fee:"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:645
+msgid "New transaction received: {}"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:123 pkpay/plugins/trustedcoin/qt.py:206
+#: pkpay/gui/qt/installwizard.py:124
+msgid "Next"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:343 pkpay/plugins/safe_t/qt.py:220
+#: pkpay/plugins/trezor/qt.py:310
+msgid "No"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/invoices.py:125
+msgid "No Amount"
+msgstr ""
+
+#: pkpay/util.py:176
+msgid "No Data"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/send.kv:72
+msgid "No Description"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:196
+msgid "No Wallet"
+msgstr ""
+
+#: pkpay/exchange_rate.py:585
+msgid "No data"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:594
+msgid "No donation address for this server"
+msgstr ""
+
+#: pkpay/base_wizard.py:268
+msgid "No exceptions encountered."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:56
+msgid "No fork detected"
+msgstr ""
+
+#: pkpay/base_wizard.py:271
+msgid "No hardware device detected."
+msgstr ""
+
+#: pkpay/wallet.py:123
+msgid "No inputs found. (Note that inputs need to be confirmed)"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2123
+msgid "No keystore"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:969
+msgid "No message or amount"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1014
+msgid "No more addresses in your wallet."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1530
+msgid "No outputs"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:959
+msgid "No saved invoices."
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:971
+msgid "No saved requests."
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:313
+msgid "No wallet loaded."
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:352 pkpay/gui/qt/history_list.py:375
+#: pkpay/gui/qt/main_window.py:2984
+#: pkpay/gui/kivy/uix/dialogs/settings.py:159
+#: pkpay/gui/kivy/uix/dialogs/settings.py:217
+#: pkpay/gui/kivy/uix/dialogs/fx_dialog.py:97
+#: pkpay/gui/kivy/uix/dialogs/fx_dialog.py:98
+#: pkpay/gui/kivy/uix/dialogs/fx_dialog.py:103
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:30
+msgid "None"
+msgstr ""
+
+#: pkpay/gui/qt/exception_window.py:83
+msgid "Not Now"
+msgstr ""
+
+#: pkpay/wallet.py:74
+msgid "Not Verified"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/screens.py:180
+msgid "Not a PKCcoin URI"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:363 pkpay/gui/qt/main_window.py:782
+#: pkpay/gui/qt/main_window.py:784 pkpay/gui/text.py:148
+#: pkpay/gui/stdio.py:125 pkpay/gui/kivy/main_window.py:934
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:14
+msgid "Not connected"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1276 pkpay/gui/kivy/uix/screens.py:278
+msgid "Not enough funds"
+msgstr ""
+
+#: pkpay/wallet.py:136 pkpay/wallet.py:138
+msgid "Not enough funds on address."
+msgstr ""
+
+#: pkpay/wallet.py:346
+msgid "Not verified"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1124
+msgid "Note that if you have frozen some of your addresses, the available funds will be lower than your total balance."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2768
+msgid "Note that some merchants do not accept non-final transactions until they are confirmed."
+msgstr ""
+
+#: pkpay/base_wizard.py:395
+msgid "Note that this is NOT your encryption password."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:81
+#: pkpay/plugins/trustedcoin/trustedcoin.py:97
+msgid "Note that your coins are not locked in this service.  You may withdraw your funds at any time and at no cost, without the remote server, by using the 'restore wallet' option with your wallet seed."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:32 pkpay/gui/qt/password_dialog.py:276
+msgid "Note: If you enable this setting, you will need your hardware device to open your wallet."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3312
+msgid "Note: this is an offline transaction, if you want the network to see it, you need to broadcast it."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/__init__.py:95
+msgid "Nothing set !"
+msgstr ""
+
+#: pkpay/plot.py:15
+msgid "Nothing to plot."
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:451
+msgid "Nothing to summarize."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2719
+msgid "Number of zeros displayed after the decimal point. For example, if this is set to 2, \"1.\" will be displayed as \"1.00\""
+msgstr ""
+
+#: pkpay/plugins/audio_modem/qt.py:65 pkpay/gui/qt/util.py:161
+#: pkpay/gui/kivy/uix/ui_screens/proxy.kv:64
+#: pkpay/gui/kivy/uix/ui_screens/server.kv:57
+msgid "OK"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:255
+msgid "OR"
+msgstr ""
+
+#: pkpay/gui/qt/__init__.py:188 pkpay/gui/qt/main_window.py:748
+#: pkpay/gui/text.py:136 pkpay/gui/kivy/main_window.py:720
+msgid "Offline"
+msgstr ""
+
+#: pkpay/plugins/keepkey/keepkey.py:53 pkpay/plugins/ledger/ledger.py:360
+#: pkpay/plugins/safe_t/safe_t.py:54 pkpay/plugins/trezor/trezor.py:77
+msgid "Offline signing with {} is not supported for legacy inputs."
+msgstr ""
+
+#: pkpay/base_wizard.py:274
+msgid "On Linux, you might have to add a new permission to your udev rules."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1866
+msgid "One output per line."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:42
+msgid "One-server mode"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2864
+msgid "Online Block Explorer"
+msgstr ""
+
+#: pkpay/plugins/hw_wallet/plugin.py:145
+msgid "Only OP_RETURN scripts, with one constant push, are supported."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:43
+msgid "Only connect to a single server"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:568 pkpay/plugins/safe_t/qt.py:473
+#: pkpay/plugins/trezor/qt.py:563
+msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the pkccoins will be lost forever."
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:750
+msgid "Open calibration pdf"
+msgstr ""
+
+#: pkpay/plugins/cosigner_pool/qt.py:176
+msgid "Open your cosigner wallet to retrieve it."
+msgstr ""
+
+#: pkpay/gui/qt/util.py:747
+msgid "Open {} file"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2790
+msgid "OpenAlias"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2786
+msgid "OpenAlias record, used to receive coins and to sign payment requests."
+msgstr ""
+
+#: pkpay/gui/qt/seed_dialog.py:127
+msgid "Options"
+msgstr ""
+
+#: pkpay/plugins/keepkey/keepkey.py:134
+#: pkpay/plugins/safe_t/safe_t.py:139 pkpay/plugins/trezor/trezor.py:263
+msgid "Outdated {} firmware for device labelled {}. Please download the updated firmware from {}"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3225
+msgid "Output amount"
+msgstr ""
+
+#: pkpay/gui/qt/utxo_list.py:47
+msgid "Output point"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:322
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:62
+msgid "Outputs"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:202
+msgid "Overview"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:495 pkpay/plugins/safe_t/qt.py:377
+#: pkpay/plugins/trezor/qt.py:467
+msgid "PIN Protection"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:1059
+msgid "PIN codes do not match"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/installwizard.py:1034
+msgid "PIN mismatch"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:500 pkpay/plugins/safe_t/qt.py:382
+#: pkpay/plugins/trezor/qt.py:472
+msgid "PIN protection is strongly recommended.  A PIN is your only protection against someone stealing your pkccoins if they obtain physical access to your {}."
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:458 pkpay/plugins/safe_t/qt.py:341
+#: pkpay/plugins/trezor/qt.py:431
+msgid "PIN set"
+msgstr ""
+
+#: pkpay/gui/qt/util.py:39 pkpay/gui/kivy/uix/dialogs/invoices.py:87
+msgid "Paid"
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:87 pkpay/plugins/ledger/auth2fa.py:187
+msgid "Pair"
+msgstr ""
+
+#: pkpay/wallet.py:364
+msgid "Partially signed"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:1042
+msgid "Passphrase"
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:87
+msgid "Passphrase:"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:459 pkpay/plugins/safe_t/qt.py:342
+#: pkpay/plugins/trezor/qt.py:432
+msgid "Passphrases"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:19 pkpay/plugins/safe_t/qt.py:19
+#: pkpay/plugins/trezor/qt.py:20
+msgid "Passphrases allow you to access new wallets, each hidden behind a particular case-sensitive passphrase."
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:256 pkpay/gui/qt/installwizard.py:179
+#: pkpay/gui/qt/password_dialog.py:297 pkpay/gui/qt/main_window.py:2008
+#: pkpay/gui/kivy/uix/ui_screens/proxy.kv:47
+msgid "Password"
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:151
+msgid "Password Strength"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2063
+msgid "Password is disabled, this wallet is not protected"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:147
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:162
+msgid "Password must have at least 4 characters."
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:150
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:165
+msgid "Password must have less than 64 characters."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2063
+msgid "Password was updated successfully"
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:101
+msgid "Password:"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/send.kv:105
+msgid "Paste"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/send.kv:121
+msgid "Pay"
+msgstr ""
+
+#: pkpay/gui/qt/invoice_list.py:87
+msgid "Pay Now"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1100 pkpay/gui/qt/contact_list.py:84
+#: pkpay/gui/text.py:178
+msgid "Pay to"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1870
+msgid "Pay to many"
+msgstr ""
+
+#: pkpay/gui/qt/qrwindow.py:50
+msgid "Payment Request"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/screens.py:328 pkpay/gui/kivy/uix/screens.py:362
+msgid "Payment received"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1508 pkpay/gui/qt/main_window.py:1661
+#: pkpay/gui/kivy/main_window.py:325 pkpay/gui/kivy/uix/screens.py:245
+msgid "Payment request has expired"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1689 pkpay/gui/text.py:375
+#: pkpay/gui/stdio.py:211 pkpay/gui/kivy/main_window.py:919
+msgid "Payment sent."
+msgstr ""
+
+#: pkpay/gui/qt/util.py:38 pkpay/gui/kivy/uix/dialogs/requests.py:89
+#: pkpay/gui/kivy/uix/dialogs/invoices.py:85
+msgid "Pending"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:491
+msgid "Perhaps some dependencies are missing..."
+msgstr ""
+
+#: pkpay/base_crash_reporter.py:57
+msgid "Please briefly describe what led to the error (optional):"
+msgstr ""
+
+#: pkpay/plugins/email_requests/qt.py:252
+msgid "Please check your connection and credentials."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/crash_reporter.py:123
+msgid "Please check your network connection."
+msgstr ""
+
+#: pkpay/plugins/hw_wallet/qt.py:156
+msgid "Please check your {} device"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:587
+msgid "Please confirm"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:399
+msgid "Please enter the master public key (xpub) of your cosigner."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/kivy.py:58
+#: pkpay/plugins/trustedcoin/qt.py:102
+msgid "Please enter your Google Authenticator code"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/cmdline.py:40
+msgid "Please enter your Google Authenticator code:"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:221
+msgid "Please enter your e-mail address"
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:289 pkpay/gui/qt/main_window.py:950
+msgid "Please enter your password"
+msgstr ""
+
+#: pkpay/plugins/cosigner_pool/qt.py:212
+msgid "Please enter your password to decrypt it."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:412
+msgid "Please enter your seed phrase in order to restore your wallet."
+msgstr ""
+
+#: pkpay/plugins/coldcard/qt.py:107
+msgid "Please initialize your Coldcard while disconnected."
+msgstr ""
+
+#: pkpay/plugin.py:531
+msgid "Please insert your {}"
+msgstr ""
+
+#: pkpay/base_wizard.py:549
+msgid "Please note that websites and other wallets may not support these addresses yet."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/installwizard.py:1018
+msgid "Please paste your cosigners master public key, or scan it using the camera button."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:608
+msgid "Please report any bugs as issues on github:<br/>"
+msgstr ""
+
+#: pkpay/gui/qt/exception_window.py:100
+msgid "Please report this issue manually."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3108
+msgid "Please restart PKpay to activate the new GUI settings"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/installwizard.py:991
+msgid "Please retype your seed phrase, to confirm that you properly saved it"
+msgstr ""
+
+#: pkpay/gui/qt/seed_dialog.py:38
+#, python-brace-format
+msgid "Please save these {0} words on paper (order is important). "
+msgstr ""
+
+#: pkpay/gui/kivy/uix/screens.py:251
+msgid "Please scan a PKCcoin address or a payment request"
+msgstr ""
+
+#: pkpay/plugin.py:548
+msgid "Please select which {} device to use:"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:576
+msgid "Please share it with your cosigners."
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:48
+msgid "Please sign this transaction in order to save it"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/kivy.py:108
+#: pkpay/plugins/trustedcoin/qt.py:136 pkpay/base_wizard.py:301
+msgid "Please try again."
+msgstr ""
+
+#: pkpay/base_wizard.py:587
+msgid "Please type it here."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/installwizard.py:766
+msgid "Please type your seed phrase using the virtual keyboard."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/screens.py:413
+msgid "Please use the existing requests first."
+msgstr ""
+
+#: pkpay/gui/qt/util.py:239
+msgid "Please wait"
+msgstr ""
+
+#: pkpay/wallet.py:727 pkpay/gui/qt/installwizard.py:127
+#: pkpay/gui/text.py:369 pkpay/gui/stdio.py:205
+#: pkpay/gui/kivy/uix/dialogs/password_dialog.py:125
+msgid "Please wait..."
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:139
+#: pkpay/gui/kivy/uix/ui_screens/proxy.kv:28
+#: pkpay/gui/kivy/uix/ui_screens/server.kv:31
+msgid "Port"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:253
+msgid "Position in mempool: {} from tip"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:559 pkpay/gui/qt/main_window.py:1208
+#: pkpay/gui/qt/main_window.py:2011 pkpay/gui/qt/main_window.py:2688
+msgid "Preferences"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:218
+msgid "Press 'Next' to choose device to decrypt."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:209
+msgid "Press 'Next' to create this wallet, or choose another file."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:225
+msgid "Press 'Next' to create/focus window."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:221
+msgid "Press 'Next' to open this wallet."
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:139
+msgid "Press Enter"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:600
+msgid "Press again to exit"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1244
+msgid "Preview"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:68
+msgid "Printer Calibration"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:55
+msgid "Private Key"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:178 pkpay/gui/qt/main_window.py:2200
+#: pkpay/gui/qt/main_window.py:2205
+msgid "Private key"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2463
+msgid "Private keys"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2543
+msgid "Private keys exported."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1618
+msgid "Proceed?"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/__init__.py:4
+msgid "Provides support for Digital Bitbox hardware wallet"
+msgstr ""
+
+#: pkpay/plugins/keepkey/__init__.py:4
+msgid "Provides support for KeepKey hardware wallet"
+msgstr ""
+
+#: pkpay/plugins/safe_t/__init__.py:4
+msgid "Provides support for Safe-T mini hardware wallet"
+msgstr ""
+
+#: pkpay/plugins/trezor/__init__.py:4
+msgid "Provides support for Trezor hardware wallet"
+msgstr ""
+
+#: pkpay/plugins/audio_modem/__init__.py:4
+msgid "Provides support for air-gapped transaction signing."
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:204
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:30
+#: pkpay/gui/kivy/uix/ui_screens/proxy.kv:3
+msgid "Proxy"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:31
+msgid "Proxy configuration"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/proxy.kv:11
+msgid "Proxy mode"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:279
+msgid "Proxy settings apply to all connections: with PKpay servers, but also with third-party services."
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:254
+msgid "Proxy user"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/screens.py:139
+msgid "Pruned transaction outputs"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2351
+msgid "Public key"
+msgstr ""
+
+#: pkpay/gui/qt/address_dialog.py:72
+msgid "Public keys"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2183
+msgid "QR code"
+msgstr ""
+
+#: pkpay/gui/qt/qrcodewidget.py:116
+msgid "QR code copied to clipboard"
+msgstr ""
+
+#: pkpay/gui/qt/qrcodewidget.py:111
+msgid "QR code saved to file"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/question.py:51
+msgid "Question"
+msgstr ""
+
+#: pkpay/gui/text.py:155
+msgid "Quit"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:185
+msgid "REMEMBER THE PASSWORD!"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/tx_dialog.py:185
+msgid "Raw Transaction"
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:187
+msgid "Re-Pair"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:48
+#: pkpay/plugins/safe_t/clientbase.py:50
+#: pkpay/plugins/trezor/clientbase.py:232
+msgid ""
+"Re-enter the new PIN for your {}.\n"
+"\n"
+"NOTE: the positions of the numbers have changed!"
+msgstr ""
+
+#: pkpay/gui/qt/qrtextedit.py:43 pkpay/gui/qt/qrtextedit.py:76
+msgid "Read QR code"
+msgstr ""
+
+#: pkpay/gui/qt/qrtextedit.py:41
+msgid "Read file"
+msgstr ""
+
+#: pkpay/plugins/audio_modem/qt.py:85
+msgid "Read from microphone"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:244
+msgid "Ready to encrypt for revealer {}"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:165 pkpay/gui/text.py:69
+#: pkpay/gui/kivy/main.kv:398
+msgid "Receive"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/requests.py:91
+#: pkpay/gui/kivy/uix/ui_screens/history.kv:24
+msgid "Received"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:46
+msgid "Receiving"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:839
+msgid "Receiving address"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/send.kv:34
+msgid "Recipient"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/screens.py:251
+msgid "Recipient not specified."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1098
+msgid "Recipient of the funds."
+msgstr ""
+
+#: pkpay/plugins/keepkey/keepkey.py:172
+#: pkpay/plugins/safe_t/safe_t.py:177 pkpay/plugins/trezor/trezor.py:178
+msgid "Recover from a seed you have previously written down"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2210 pkpay/gui/qt/address_dialog.py:84
+msgid "Redeem Script"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:556 pkpay/gui/qt/main_window.py:1435
+msgid "Remove"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:183
+msgid "Remove from wallet"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1895
+msgid "Remove {} from your list of contacts?"
+msgstr ""
+
+#: pkpay/gui/qt/exception_window.py:60
+msgid "Report contents"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/crash_reporter.py:125
+msgid "Report sent"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:613
+msgid "Reporting Bugs"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:17
+msgid "Request"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:37
+msgid "Request amount"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/screens.py:387
+msgid "Request copied to clipboard"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:871
+msgid "Request expires"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:176
+msgid "Request payment"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:715
+msgid "Request rejected by server"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1006
+msgid "Request saved successfully"
+msgstr ""
+
+#: pkpay/plugins/email_requests/qt.py:200
+msgid "Request sent."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/screens.py:417
+msgid "Request was saved."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:851
+msgid "Requested amount"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/kivy.py:107
+#: pkpay/plugins/trustedcoin/qt.py:135
+msgid "Requesting account info from TrustedCoin server..."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1917 pkpay/gui/qt/invoice_list.py:45
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:40
+msgid "Requestor"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:896
+#: pkpay/gui/kivy/uix/ui_screens/receive.kv:119
+msgid "Requests"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:624
+#, python-brace-format
+msgid "Require {0} signatures"
+msgstr ""
+
+#: pkpay/plugins/trezor/qt.py:490
+msgid "Required package 'PIL' is not available - Please install it or use the Trezor website instead."
+msgstr ""
+
+#: pkpay/plugins/safe_t/qt.py:400
+msgid "Required package 'PIL' is not available - Please install it."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3194
+msgid "Requires"
+msgstr ""
+
+#: pkpay/plugins/safe_t/qt.py:393 pkpay/plugins/trezor/qt.py:483
+msgid "Reset"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:580
+msgid "Restore 2FA wallet"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:569
+msgid "Restore two-factor Wallet"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:740
+msgid "Revealer - Printer calibration settings"
+msgstr ""
+
+#: pkpay/plugins/revealer/__init__.py:3
+msgid "Revealer Backup Utility"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:108 pkpay/plugins/revealer/qt.py:243
+msgid "Revealer Secret Backup Plugin"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:178
+msgid "Revealers starting with 0 had a vulnerability and are not supported."
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:757
+msgid "Right side"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2828
+msgid "SSL certificate"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2815
+msgid "SSL certificate used to sign payment requests."
+msgstr ""
+
+#: pkpay/plugins/safe_t/__init__.py:6
+msgid "Safe-T mini wallet"
+msgstr ""
+
+#: pkpay/gui/qt/qrcodewidget.py:122 pkpay/gui/qt/main_window.py:879
+#: pkpay/gui/qt/main_window.py:1938
+#: pkpay/gui/qt/transaction_dialog.py:126
+msgid "Save"
+msgstr ""
+
+#: pkpay/plugins/coldcard/qt.py:42
+msgid "Save PSBT"
+msgstr ""
+
+#: pkpay/gui/qt/request_list.py:136
+msgid "Save as BIP70 file"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1932
+msgid "Save invoice to file"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:47
+msgid "Save transaction offline"
+msgstr ""
+
+#: pkpay/plugins/labels/__init__.py:5
+msgid "Save your wallet labels on a remote server, and synchronize them across multiple devices where you use PKpay."
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:35
+msgid "Scan this QR code with your Ledger Wallet phone app to pair it with this Ledger device.<br>To complete pairing you will need your security card to answer a challenge."
+msgstr ""
+
+#: pkpay/plugins/trezor/qt.py:238
+msgid "Scrambled words"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2117 pkpay/gui/qt/main_window.py:2204
+msgid "Script type"
+msgstr ""
+
+#: pkpay/base_wizard.py:360
+msgid "Script type and Derivation path"
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:177
+msgid "Security Card Challenge"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2012 pkpay/gui/qt/seed_dialog.py:202
+#: pkpay/gui/kivy/main_window.py:1040
+msgid "Seed"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:78
+msgid "Seed Entered"
+msgstr ""
+
+#: pkpay/gui/qt/seed_dialog.py:162
+msgid "Seed Type"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2119
+msgid "Seed available"
+msgstr ""
+
+#: pkpay/base_wizard.py:389
+msgid "Seed extension"
+msgstr ""
+
+#: pkpay/base_wizard.py:554
+msgid "Segwit"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:504
+msgid "Segwit 2FA"
+msgstr ""
+
+#: pkpay/base_wizard.py:548
+msgid "Segwit wallets use bech32 addresses, defined in BIP173."
+msgstr ""
+
+#: pkpay/base_wizard.py:290
+msgid "Select a device"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:429
+msgid "Select date"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2477
+msgid "Select file to export your private keys to"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:609
+msgid "Select file to export your wallet transactions to"
+msgstr ""
+
+#: pkpay/gui/qt/util.py:761
+msgid "Select file to save your {}"
+msgstr ""
+
+#: pkpay/plugins/trezor/qt.py:234
+msgid "Select recovery type:"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:214
+msgid "Select server automatically"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:591
+msgid "Select server manually"
+msgstr ""
+
+#: pkpay/plugins/coldcard/qt.py:67
+msgid "Select where to save the PSBT file"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1002
+msgid "Select where to save your payment request"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:222
+msgid "Select where to save your signed transaction"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2697
+msgid "Select which language is used in the GUI (after restart)."
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:236 pkpay/plugins/safe_t/qt.py:110
+#: pkpay/plugins/trezor/qt.py:204
+msgid "Select your seed length:"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:37
+msgid "Select your server automatically"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2415
+msgid "Select your transaction file"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:164 pkpay/gui/qt/main_window.py:1246
+#: pkpay/gui/text.py:69 pkpay/gui/kivy/main.kv:390
+msgid "Send"
+msgstr ""
+
+#: pkpay/gui/qt/exception_window.py:74
+msgid "Send Bug Report"
+msgstr ""
+
+#: pkpay/plugins/email_requests/__init__.py:4
+msgid "Send and receive payment request with an email account"
+msgstr ""
+
+#: pkpay/plugins/email_requests/qt.py:137
+msgid "Send and receive payment requests via email"
+msgstr ""
+
+#: pkpay/plugins/cosigner_pool/qt.py:146
+msgid "Send to cosigner"
+msgstr ""
+
+#: pkpay/plugins/audio_modem/qt.py:92
+msgid "Send to speaker"
+msgstr ""
+
+#: pkpay/plugins/email_requests/qt.py:175
+msgid "Send via e-mail"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:931
+msgid "Sending"
+msgstr ""
+
+#: pkpay/plugins/cosigner_pool/qt.py:192
+msgid "Sending transaction to cosigning pool..."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/history.kv:24
+msgid "Sent"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:203 pkpay/gui/qt/network_dialog.py:229
+#: pkpay/gui/qt/network_dialog.py:300
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:21
+#: pkpay/gui/kivy/uix/ui_screens/server.kv:3
+msgid "Server"
+msgstr ""
+
+#: pkpay/plugins/email_requests/qt.py:213
+msgid "Server hosting your email account"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:762
+msgid "Server is lagging ({} blocks)"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:728
+msgid "Server lagging"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:145
+msgid "Server not reachable."
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:233
+msgid "Server peers"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:22
+msgid "Server used to query your history."
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:509 pkpay/plugins/safe_t/qt.py:414
+#: pkpay/plugins/trezor/qt.py:504
+msgid "Session Timeout"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:346 pkpay/plugins/safe_t/qt.py:223
+#: pkpay/plugins/trezor/qt.py:313
+msgid "Set a PIN"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2966
+msgid "Set the value of the change output so that it has similar precision to the other outputs."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:29
+msgid "Set wallet file encryption."
+msgstr ""
+
+#: pkpay/plugins/audio_modem/qt.py:46 pkpay/plugins/labels/qt.py:32
+#: pkpay/plugins/keepkey/qt.py:581 pkpay/plugins/safe_t/qt.py:486
+#: pkpay/plugins/email_requests/qt.py:206 pkpay/plugins/trezor/qt.py:576
+#: pkpay/gui/text.py:155 pkpay/gui/kivy/main.kv:456
+msgid "Settings"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/screens.py:382
+msgid "Share PKCcoin Request"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/screens.py:266
+msgid "Should this transaction be replaceable?"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:257 pkpay/gui/qt/main_window.py:547
+#: pkpay/gui/kivy/uix/dialogs/requests.py:126
+msgid "Show"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3069
+msgid "Show Fiat balance for addresses"
+msgstr ""
+
+#: pkpay/gui/qt/address_dialog.py:63
+msgid "Show QR Code"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:102 pkpay/gui/qt/qrtextedit.py:17
+#: pkpay/gui/qt/qrtextedit.py:31
+msgid "Show as QR code"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3068
+msgid "Show capital gains in history"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2755
+msgid "Show fee edit box in send tab."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3067
+msgid "Show history rates"
+msgstr ""
+
+#: pkpay/plugins/coldcard/qt.py:29
+msgid "Show on Coldcard"
+msgstr ""
+
+#: pkpay/plugins/ledger/qt.py:29
+msgid "Show on Ledger"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:207 pkpay/plugins/hw_wallet/qt.py:237
+#: pkpay/plugins/digitalbitbox/qt.py:39 pkpay/plugins/safe_t/qt.py:83
+#: pkpay/plugins/trezor/qt.py:178
+msgid "Show on {}"
+msgstr ""
+
+#: pkpay/gui/qt/exception_window.py:57
+msgid "Show report contents"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/status.kv:74
+msgid "Show seed"
+msgstr ""
+
+#: pkpay/gui/qt/__init__.py:152
+msgid "Show/Hide"
+msgstr ""
+
+#: pkpay/plugins/coldcard/coldcard.py:583
+#: pkpay/plugins/ledger/ledger.py:515
+msgid "Showing address ..."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2293
+#: pkpay/gui/qt/transaction_dialog.py:120
+msgid "Sign"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2271
+msgid "Sign/verify Message"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:180
+msgid "Sign/verify message"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1925 pkpay/gui/qt/main_window.py:2287
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:43
+msgid "Signature"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2266
+msgid "Signature verified"
+msgstr ""
+
+#: pkpay/wallet.py:360
+msgid "Signed"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:960
+msgid "Signed invoices are saved automatically when you scan them."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/tx_dialog.py:167
+msgid "Signing"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:625
+msgid "Signing large transaction. Please be patient ..."
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:491
+msgid "Signing message ..."
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:630
+#: pkpay/gui/qt/main_window.py:1651
+msgid "Signing transaction..."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2218
+msgid "Signing with an address actually means signing with the corresponding private key, and verifying with the corresponding public key. The address you have entered does not have a unique public key, so these operations cannot be performed."
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:263
+msgid "Size:"
+msgstr ""
+
+#: pkpay/base_crash_reporter.py:53
+msgid "Something went wrong while executing PKpay."
+msgstr ""
+
+#: pkpay/base_crash_reporter.py:54
+msgid "Sorry!"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3070
+msgid "Source"
+msgstr ""
+
+#: pkpay/gui/qt/utxo_list.py:80
+msgid "Spend"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:195
+msgid "Spend from"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2955
+msgid "Spend only confirmed coins"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2956
+msgid "Spend only confirmed inputs."
+msgstr ""
+
+#: pkpay/base_wizard.py:110
+msgid "Standard wallet"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:460
+msgid "Start"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:602
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the PKCcoin system."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2744
+msgid "Static"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:294 pkpay/gui/qt/invoice_list.py:45
+#: pkpay/gui/qt/request_list.py:92
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:15
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:34
+msgid "Status"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:245
+msgid "Status:"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:82
+#: pkpay/plugins/safe_t/clientbase.py:90
+#: pkpay/plugins/trezor/clientbase.py:280
+msgid "Step {}/24.  Enter seed word as explained on your {}:"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2064 pkpay/gui/qt/main_window.py:3108
+#: pkpay/gui/qt/main_window.py:3314
+msgid "Success"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:456
+msgid "Summary"
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:175
+msgid "Summary Text PIN (requires dongle replugging)"
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:175
+msgid "Summary Text PIN is Disabled"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:463
+msgid "Supported Coins"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2599
+msgid "Sweep"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2575
+msgid "Sweep private keys"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:759 pkpay/gui/text.py:139
+#: pkpay/gui/stdio.py:116 pkpay/gui/kivy/main_window.py:726
+msgid "Synchronizing..."
+msgstr ""
+
+#: pkpay/gui/qt/fee_slider.py:38
+msgid "Target"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:214
+msgid "Terms of Service"
+msgstr ""
+
+#: pkpay/gui/qt/util.py:605
+msgid "Text copied to clipboard"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:421
+msgid "Text copied to clipboard."
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:817
+msgid ""
+"Text copied to clipboard.\n"
+"Tap again to display it as QR code."
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:225
+msgid "The Digital Bitbox is already seeded. Choose an option:"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:54
+#: pkpay/plugins/safe_t/clientbase.py:56
+#: pkpay/plugins/trezor/clientbase.py:240
+msgid "The PIN cannot be longer than 9 characters."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1145
+msgid "The amount of fee can be decided freely by the sender. However, transactions with low fees take more time to be processed."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1123
+msgid "The amount will be displayed in red if you do not have enough funds in your wallet."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:869
+msgid "The pkccoin address never expires and will always be part of this pkpay wallet."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1110
+msgid "The description is not sent to the recipient of the funds. It is stored in your wallet file, and displayed in the 'History' tab."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1609 pkpay/gui/kivy/uix/screens.py:297
+msgid "The fee for this transaction seems unusually high."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:305
+msgid ""
+"The file '{}' contains an incompletely created wallet.\n"
+"Do you want to complete its creation now?"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:299 pkpay/gui/qt/installwizard.py:310
+msgid "The file was removed"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2651
+msgid "The following addresses were added"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2787
+msgid "The following alias providers are available:"
+msgstr ""
+
+#: pkpay/base_wizard.py:210 pkpay/gui/qt/main_window.py:2656
+msgid "The following inputs could not be imported"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:84
+msgid "The next step will generate the seed of your wallet.  This seed will NOT be saved in your computer, and it must be stored on paper.  To be safe from malware, you may want to do this on an offline computer, and move your wallet later to an online computer."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2222
+msgid "The operation is undefined. Not just in PKpay, but in general."
+msgstr ""
+
+#: pkpay/base_wizard.py:547
+msgid "The type of addresses used by your wallet will depend on your seed."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:291
+msgid ""
+"The wallet '{}' contains multiple accounts, which are no longer supported since PKpay 2.7.\n"
+"\n"
+"Do you want to split your wallet into multiple files?"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:275
+#: pkpay/gui/kivy/uix/dialogs/installwizard.py:644
+msgid "Then, enter your Google Authenticator code:"
+msgstr ""
+
+#: pkpay/gui/qt/exception_window.py:98
+msgid "There was a problem with the automatic reporting:"
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:927
+msgid "There was an error broadcasting the transaction."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:88
+msgid "Therefore, two-factor authentication is disabled."
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:291
+msgid "This blockchain is used to verify the transactions sent by your transaction server."
+msgstr ""
+
+#: pkpay/plugins/greenaddress_instant/qt.py:69
+msgid "This feature is not available for watch-only wallets."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:208
+msgid "This file does not exist."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:224
+msgid "This file is already open in memory."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:217
+msgid "This file is encrypted using a hardware device."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:213
+msgid "This file is encrypted with a password."
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:783
+msgid "This function is only available after pairing your {} with a mobile device."
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:786
+msgid "This function is only available for p2pkh keystores when using {}."
+msgstr ""
+
+#: pkpay/plugins/coldcard/coldcard.py:705
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:780
+#: pkpay/plugins/ledger/ledger.py:623
+msgid "This function is only available for standard wallets when using {}."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:867
+msgid "This information is seen by the recipient if you send them a signed payment request."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2456
+msgid "This is a watching-only wallet"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2232 pkpay/gui/qt/main_window.py:2310
+msgid "This is a watching-only wallet."
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:1065
+msgid "This is a watching-only wallet. It does not contain private keys."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:42
+msgid "This is discouraged."
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:305
+msgid "This is the height of your local copy of the blockchain."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2926
+msgid "This may result in higher transactions fees."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:436
+msgid "This means you will not be able to spend PKCcoins with it."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2967
+msgid "This might improve your privacy somewhat."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:950
+msgid "This payment request will be signed."
+msgstr ""
+
+#: pkpay/plugins/revealer/__init__.py:6
+msgid "This plug-in allows you to create a visually encrypted backup of your wallet seeds, or of custom alphanumeric secrets."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/__init__.py:5
+msgid "This plugin adds two-factor authentication to your wallet."
+msgstr ""
+
+#: pkpay/plugins/cosigner_pool/__init__.py:4
+msgid "This plugin facilitates the use of multi-signatures wallets."
+msgstr ""
+
+#: pkpay/gui/qt/seed_dialog.py:39
+msgid "This seed will allow you to recover your wallet in case of computer failure."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:93
+msgid "This service uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf. A small fee will be charged on each transaction that uses the remote server."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2839
+msgid "This setting affects the Send tab, and all balance related fields."
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:173
+msgid "This transaction is not saved. Close anyway?"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1583
+msgid "This transaction requires a higher fee, or it will not be propagated by your current server"
+msgstr ""
+
+#: pkpay/plugins/coldcard/coldcard.py:675
+#: pkpay/plugins/keepkey/keepkey.py:256
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:756
+#: pkpay/plugins/ledger/ledger.py:596 pkpay/plugins/safe_t/safe_t.py:273
+#: pkpay/plugins/trezor/trezor.py:278
+msgid "This type of script is not supported with {}."
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:265
+msgid "This version supports a maximum of {} characters."
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:291 pkpay/gui/qt/main_window.py:2170
+msgid "This wallet has no seed"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/installwizard.py:619
+msgid "This wallet is already registered with TrustedCoin. To finalize wallet creation, please enter your Google Authenticator Code."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:156
+msgid "This wallet is protected by TrustedCoin's two-factor authentication."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/status.kv:66
+msgid "This wallet is watching-only"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:435
+msgid "This wallet is watching-only."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:87
+msgid "This wallet was restored from seed, and it contains two master private keys."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2780
+msgid "This will save fees."
+msgstr ""
+
+#: pkpay/base_wizard.py:550
+msgid "Thus, you might want to keep using a non-segwit wallet in order to be able to receive pkccoins during the transition period."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2738
+msgid "Time based: fee rate is based on average confirmation time estimates"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:395
+msgid "To"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:493
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:628
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:632
+msgid "To cancel, briefly touch the blinking light or wait for the timeout."
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:321
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:346
+msgid "To cancel, briefly touch the light or wait for the timeout."
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:492
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:626
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:631
+msgid "To continue, touch the Digital Bitbox's blinking light for 3 seconds."
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:320
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:345
+msgid "To continue, touch the Digital Bitbox's light for 3 seconds."
+msgstr ""
+
+#: pkpay/base_wizard.py:221
+msgid "To create a spending wallet, please enter a master private key (xprv/yprv/zprv)."
+msgstr ""
+
+#: pkpay/base_wizard.py:220
+msgid "To create a watching-only wallet, please enter your master public key (xpub/ypub/zpub)."
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:109
+msgid "To encrypt your backup, first we need to load some noise."
+msgstr ""
+
+#: pkpay/base_crash_reporter.py:55
+msgid "To help us diagnose and fix the problem, you can send us a bug report that contains useful debug information:"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:422
+msgid "To make sure that you have properly saved your seed, please retype it here."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1206
+msgid "To somewhat protect your privacy, PKpay tries to create change with similar precision to other outputs."
+msgstr ""
+
+#: pkpay/base_wizard.py:272
+msgid "To trigger a rescan, press 'Next'."
+msgstr ""
+
+#: pkpay/base_wizard.py:300
+msgid "To try to fix this, we will now re-pair with your device."
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:211
+msgid "Toggle Encryption"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:76
+#: pkpay/plugins/safe_t/clientbase.py:81
+#: pkpay/plugins/trezor/clientbase.py:258
+msgid "Too long passphrase ({} > 50 chars)."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3219
+msgid "Total size"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:93
+msgid "Transaction"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:542 pkpay/gui/qt/main_window.py:2441
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:66
+#: pkpay/gui/kivy/uix/ui_screens/invoice.kv:69
+msgid "Transaction ID"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:98
+msgid "Transaction ID:"
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:33
+msgid "Transaction accepted by mobile phone. Waiting for confirmation."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3311
+msgid "Transaction added to wallet history."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3301
+msgid "Transaction could not be saved."
+msgstr ""
+
+#: pkpay/plugins/coldcard/qt.py:72 pkpay/gui/qt/transaction_dialog.py:226
+msgid "Transaction exported successfully"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:193
+msgid "Transaction is too large in size."
+msgstr ""
+
+#: pkpay/address_synchronizer.py:54
+msgid "Transaction is unrelated to this wallet."
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:258
+#: pkpay/gui/kivy/uix/dialogs/tx_dialog.py:124
+msgid "Transaction unrelated to your wallet"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2427
+msgid "Transaction:"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:3074
+msgid "Transactions"
+msgstr ""
+
+#: pkpay/plugins/cosigner_pool/__init__.py:6
+msgid "Transactions are encrypted and stored on a remote server."
+msgstr ""
+
+#: pkpay/plugins/trezor/qt.py:44
+msgid "Trezor Matrix Recovery"
+msgstr ""
+
+#: pkpay/plugins/trezor/__init__.py:6
+msgid "Trezor wallet"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2109
+msgid "True"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:94
+msgid "TrustedCoin"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:290
+msgid "TrustedCoin (2FA) fee for the next batch of transactions"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:149
+msgid "TrustedCoin Information"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:170
+msgid "TrustedCoin charges a small fee to co-sign transactions. The fee depends on how many prepaid transactions you buy. An extra output is added to your transaction every time you run out of prepaid transactions."
+msgstr ""
+
+#: pkpay/plugin.py:537
+msgid "Try to connect again?"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:611
+msgid "Try to explain not only what the bug is, but how it occurs."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1584
+msgid "Try to raise your transaction fee, or use a server with a lower relay fee."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/__init__.py:3
+msgid "Two Factor Authentication"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:73
+msgid "Two-factor authentication is a service provided by TrustedCoin.  It uses a multi-signature wallet, where you own 2 of 3 keys.  The third key is stored on a remote server that signs transactions on your behalf.  To use this service, you will need a smartphone with Google Authenticator installed."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/trustedcoin.py:91
+msgid "Two-factor authentication is a service provided by TrustedCoin. To use it, you must have a separate device with Google Authenticator."
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:71
+msgid "Tx"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:67
+msgid "Type"
+msgstr ""
+
+#: pkpay/plugins/coldcard/qt.py:151
+msgid "USB Serial"
+msgstr ""
+
+#: pkpay/plugins/email_requests/qt.py:251
+msgid ""
+"Unable to connect to mail server:\n"
+" {}"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:465
+msgid "Unable to create backup"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2537
+msgid "Unable to create csv"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:626
+msgid "Unable to export history"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2422
+msgid "Unable to read file or no transaction found"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/crash_reporter.py:123
+msgid "Unable to send report"
+msgstr ""
+
+#: pkpay/wallet.py:72 pkpay/wallet.py:348
+#: pkpay/gui/kivy/uix/ui_screens/status.kv:41
+msgid "Unconfirmed"
+msgstr ""
+
+#: pkpay/wallet.py:73
+msgid "Unconfirmed parent"
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:207
+msgid "Unexpected error occurred."
+msgstr ""
+
+#: pkpay/crypto.py:130
+msgid "Unexpected password hash version"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:191
+msgid "Unfreeze"
+msgstr ""
+
+#: pkpay/util.py:571 pkpay/gui/qt/transaction_dialog.py:239
+#: pkpay/gui/kivy/uix/dialogs/requests.py:90
+#: pkpay/gui/kivy/uix/dialogs/invoices.py:86
+msgid "Unknown"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/status.kv:45
+msgid "Unmatured"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:480
+msgid "Unrealized gains"
+msgstr ""
+
+#: pkpay/wallet.py:364
+msgid "Unsigned"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:50
+#: pkpay/gui/kivy/uix/dialogs/addresses.py:120
+msgid "Unused"
+msgstr ""
+
+#: pkpay/base_wizard.py:132
+msgid "Upgrading wallet format..."
+msgstr ""
+
+#: pkpay/plugins/keepkey/keepkey.py:173
+#: pkpay/plugins/safe_t/safe_t.py:178
+msgid "Upload a BIP39 mnemonic to generate the seed"
+msgstr ""
+
+#: pkpay/plugins/keepkey/keepkey.py:174
+#: pkpay/plugins/safe_t/safe_t.py:179
+msgid "Upload a master private key"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/addresses.py:124
+msgid "Use"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2763
+msgid "Use Replace-By-Fee"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:272
+msgid "Use Tor Proxy"
+msgstr ""
+
+#: pkpay/base_wizard.py:172
+msgid "Use a hardware device"
+msgstr ""
+
+#: pkpay/base_wizard.py:169
+msgid "Use a master key"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:83 pkpay/gui/qt/network_dialog.py:149
+msgid "Use as server"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2902
+msgid "Use change addresses"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2921
+msgid "Use multiple change addresses"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:243
+msgid "Use proxy"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2816
+msgid "Use setconfig to set ssl_chain and ssl_privkey."
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/installwizard.py:1013
+msgid "Use the camera button to scan a QR code."
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:247
+msgid "Use this dialog to add a password to your wallet."
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:253
+msgid "Use this dialog to change your password."
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:277
+msgid "Use this dialog to toggle encryption."
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:50
+#: pkpay/gui/kivy/uix/dialogs/addresses.py:120
+msgid "Used"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/proxy.kv:38
+msgid "Username"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:604
+msgid "Uses icons from the Icons8 icon pack (icons8.com)."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2912
+msgid "Using change addresses makes it more difficult for other people to track your transactions."
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:303
+msgid "Value"
+msgstr ""
+
+#: pkpay/plugins/greenaddress_instant/qt.py:100
+msgid "Verification failed!"
+msgstr ""
+
+#: pkpay/plugins/greenaddress_instant/qt.py:98
+msgid "Verification successful!"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:51
+msgid "Verified block headers"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2297
+msgid "Verify"
+msgstr ""
+
+#: pkpay/plugins/greenaddress_instant/qt.py:39
+msgid "Verify GA instant"
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:31
+msgid "Verify the address below.<br>Type the character from your security card corresponding to the <u><b>BOLD</b></u> character."
+msgstr ""
+
+#: pkpay/plugin.py:535
+msgid "Verify the cable is connected and that no other application is using it."
+msgstr ""
+
+#: pkpay/plugins/greenaddress_instant/qt.py:83
+msgid "Verifying..."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:598
+#: pkpay/gui/kivy/uix/ui_screens/about.kv:13
+msgid "Version"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2884
+msgid "Video Device"
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:574
+msgid "View invoice"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:186 pkpay/gui/qt/history_list.py:576
+#: pkpay/gui/qt/contact_list.py:88
+msgid "View on block explorer"
+msgstr ""
+
+#: pkpay/gui/qt/seed_dialog.py:42
+msgid "WARNING"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2467
+msgid "WARNING: ALL your private keys are secret."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2460
+msgid "WARNING: This is a multi-signature wallet."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1523
+msgid "WARNING: the alias \"{}\" could not be validated via an additional security check, DNSSEC, and thus may not be correct."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:33
+msgid "WIF keys are typed in PKpay, based on script type."
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:32
+msgid "Waiting for authentication on your mobile phone"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:166
+msgid "Wallet"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2102
+msgid "Wallet Information"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/status.kv:27
+msgid "Wallet Name"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:463
+msgid "Wallet backup created"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:287
+msgid "Wallet change address"
+msgstr ""
+
+#: pkpay/wallet.py:155
+msgid "Wallet file corruption detected. Please restore your wallet from seed, and compare the addresses in both files"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2113
+msgid "Wallet name"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:284
+msgid "Wallet receive address"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2165 pkpay/gui/kivy/main_window.py:1023
+msgid "Wallet removed: {}"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2115
+msgid "Wallet type"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/status.kv:30
+msgid "Wallet type:"
+msgstr ""
+
+#: pkpay/base_wizard.py:111
+msgid "Wallet with two-factor authentication"
+msgstr ""
+
+#: pkpay/gui/kivy/main.kv:450
+msgid "Wallets"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:129 pkpay/plugins/revealer/qt.py:204
+#: pkpay/gui/qt/util.py:195 pkpay/gui/qt/installwizard.py:39
+#: pkpay/gui/qt/main_window.py:1609 pkpay/gui/qt/seed_dialog.py:67
+#: pkpay/gui/qt/transaction_dialog.py:173
+#: pkpay/gui/qt/transaction_dialog.py:270
+#: pkpay/gui/kivy/uix/screens.py:297
+msgid "Warning"
+msgstr ""
+
+#: pkpay/gui/qt/console.py:72
+msgid "Warning!"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:178
+msgid "Warning: "
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1020
+msgid ""
+"Warning: The next address will not be recovered automatically if you restore your wallet from seed; you may need to add it manually.\n"
+"\n"
+"This occurs because you have too many unused addresses in your wallet. To avoid this situation, use the existing addresses first.\n"
+"\n"
+"Create anyway?"
+msgstr ""
+
+#: pkpay/plugins/virtualkeyboard/__init__.py:4
+msgid "Warning: do not use this if it makes you pick a weaker password."
+msgstr ""
+
+#: pkpay/gui/qt/seed_dialog.py:71
+msgid "We do not guarantee that BIP39 imports will always be supported in PKpay."
+msgstr ""
+
+#: pkpay/base_wizard.py:298
+msgid "We encountered an error while connecting to your device:"
+msgstr ""
+
+#: pkpay/base_wizard.py:107
+msgid "What kind of wallet do you want to create?"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:561 pkpay/plugins/safe_t/qt.py:466
+#: pkpay/plugins/trezor/qt.py:556
+msgid "Wipe Device"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:564 pkpay/plugins/safe_t/qt.py:469
+#: pkpay/plugins/trezor/qt.py:559
+msgid "Wipe the device, removing all data from it.  The firmware is left unchanged."
+msgstr ""
+
+#: pkpay/simple_config.py:392
+msgid "Within {} blocks"
+msgstr ""
+
+#: pkpay/plugins/keepkey/clientbase.py:16
+#: pkpay/plugins/safe_t/clientbase.py:17
+#: pkpay/plugins/trezor/clientbase.py:18
+msgid "Write down the seed word shown on your {}"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/password_dialog.py:141
+msgid "Wrong PIN"
+msgstr ""
+
+#: pkpay/base_wizard.py:445 pkpay/base_wizard.py:453
+msgid "Wrong key type"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2268
+msgid "Wrong signature"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:343 pkpay/plugins/safe_t/qt.py:220
+#: pkpay/plugins/trezor/qt.py:310
+msgid "Yes"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:371
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:57
+msgid "You are following branch"
+msgstr ""
+
+#: pkpay/crypto.py:132
+msgid "You are most likely using an outdated version of PKpay. Please update."
+msgstr ""
+
+#: pkpay/plugins/labels/labels.py:142 pkpay/plugins/labels/labels.py:146
+msgid "You are offline."
+msgstr ""
+
+#: pkpay/gui/qt/__init__.py:188
+msgid "You are using PKpay in offline mode; restart PKpay if you want to get connected"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1015
+msgid "You are using a non-deterministic wallet, which cannot create new addresses."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1208
+msgid "You can disable this setting in '{}'."
+msgstr ""
+
+#: pkpay/base_wizard.py:337
+msgid "You can override the suggested derivation path."
+msgstr ""
+
+#: pkpay/plugins/safe_t/qt.py:403 pkpay/plugins/trezor/qt.py:493
+msgid "You can set the homescreen on your device to personalize it.  You must choose a {} x {} monochrome black and white image."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1593
+msgid "You can't broadcast a transaction without a live network connection."
+msgstr ""
+
+#: pkpay/plugins/digitalbitbox/digitalbitbox.py:186
+msgid "You cannot access your coins or a backup without the password."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:600
+msgid "You do not need to perform regular backups, because your wallet can be recovered from a secret phrase that you can memorize or write on paper."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:40
+msgid "You have multiple consecutive whitespaces or leading/trailing whitespaces in your passphrase."
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:961
+msgid "You may also save unsigned requests or contact addresses using the save button."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1099
+msgid "You may enter a PKCcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a PKCcoin address)"
+msgstr ""
+
+#: pkpay/base_wizard.py:391
+msgid "You may extend your seed with custom words."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1868
+msgid "You may load a CSV file using the file icon."
+msgstr ""
+
+#: pkpay/base_wizard.py:253
+msgid "You might have an incompatible library."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:201
+msgid "You need to be online in order to complete the creation of your wallet.  If you generated your seed on an offline computer, click on \"{}\" to close this window, move your wallet file to an online computer, and reopen it with PKpay."
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:22 pkpay/plugins/safe_t/qt.py:22
+#: pkpay/plugins/trezor/qt.py:23
+msgid "You need to create a separate PKpay wallet for each passphrase you use as they each generate different addresses.  Changing your passphrase does not lose other wallets, each is still accessible behind its own passphrase."
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:27 pkpay/plugins/safe_t/qt.py:27
+#: pkpay/plugins/trezor/qt.py:28
+msgid "You should enable PIN protection.  Your PIN is the only protection for your pkccoins if your device is lost or stolen."
+msgstr ""
+
+#: pkpay/plugins/safe_t/safe_t.py:213 pkpay/plugins/trezor/trezor.py:215
+msgid ""
+"You will be asked to enter 24 words regardless of your seed's actual length.  If you enter a word incorrectly or misspell it, you cannot change it or go back - you will need to start again from the beginning.\n"
+"\n"
+"So please enter the words carefully!"
+msgstr ""
+
+#: pkpay/plugins/ledger/auth2fa.py:25
+msgid "Your Ledger Wallet wants to tell you a one-time PIN code.<br><br>For best security you should unplug your device, open a text editor on another computer, put your cursor into it, and plug your device into that computer. It will output a summary of the transaction being signed and a one-time PIN.<br><br>Verify the transaction summary and type the PIN code here.<br><br>Before pressing enter, plug the device back into this computer.<br>"
+msgstr ""
+
+#: pkpay/plugins/ledger/ledger.py:49
+msgid "Your Ledger is locked. Please unlock it."
+msgstr ""
+
+#: pkpay/gui/kivy/main_window.py:1058
+msgid "Your PIN code was updated"
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:296
+msgid "Your accounts have been moved to"
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:250
+msgid "Your pkccoins are password protected. However, your wallet file is not encrypted."
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:386 pkpay/plugins/safe_t/qt.py:261
+#: pkpay/plugins/trezor/qt.py:351
+msgid "Your current PKpay wallet can only be used with an empty passphrase.  You must create a separate wallet with the install wizard for other passphrases as each one generates a new set of addresses."
+msgstr ""
+
+#: pkpay/plugins/keepkey/keepkey.py:303
+#: pkpay/plugins/safe_t/safe_t.py:320
+msgid "Your device firmware is too old"
+msgstr ""
+
+#: pkpay/plugins/ledger/ledger.py:529
+msgid "Your device might not have support for this functionality."
+msgstr ""
+
+#: pkpay/plugins/labels/qt.py:62
+msgid "Your labels have been synchronised."
+msgstr ""
+
+#: pkpay/gui/qt/seed_dialog.py:135
+msgid "Your seed extension is"
+msgstr ""
+
+#: pkpay/base_wizard.py:392 pkpay/base_wizard.py:586
+msgid "Your seed extension must be saved together with your seed."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:420
+msgid "Your seed is important!"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:371
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:57
+msgid "Your server is on branch"
+msgstr ""
+
+#: pkpay/plugins/cosigner_pool/qt.py:175
+msgid "Your transaction was sent to the cosigning pool."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:30
+msgid "Your wallet file does not contain secrets, mostly just metadata. "
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:273
+msgid "Your wallet file is NOT encrypted."
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:275
+msgid "Your wallet file is encrypted."
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:200
+msgid "Your wallet file is: {}."
+msgstr ""
+
+#: pkpay/gui/qt/installwizard.py:429 pkpay/gui/qt/seed_dialog.py:205
+msgid "Your wallet generation seed is:"
+msgstr ""
+
+#: pkpay/plugins/trustedcoin/qt.py:194
+msgid "Your wallet has {} prepaid transactions."
+msgstr ""
+
+#: pkpay/gui/qt/history_list.py:628
+msgid "Your wallet history has been successfully exported."
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:246
+msgid "Your wallet is not protected."
+msgstr ""
+
+#: pkpay/gui/qt/password_dialog.py:252
+msgid "Your wallet is password protected and encrypted."
+msgstr ""
+
+#: pkpay/gui/qt/util.py:770
+#, python-brace-format
+msgid "Your {0} were exported to '{1}'"
+msgstr ""
+
+#: pkpay/gui/qt/util.py:755
+msgid "Your {} were successfully imported"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2720
+msgid "Zeros after decimal point"
+msgstr ""
+
+#: pkpay/gui/text.py:183
+msgid "[Clear]"
+msgstr ""
+
+#: pkpay/gui/text.py:182
+msgid "[Send]"
+msgstr ""
+
+#: pkpay/gui/stdio.py:51
+msgid "[b] - print server banner"
+msgstr ""
+
+#: pkpay/gui/stdio.py:50
+msgid "[c] - display contacts"
+msgstr ""
+
+#: pkpay/gui/stdio.py:44
+msgid "[h] - displays this help text"
+msgstr ""
+
+#: pkpay/gui/stdio.py:45
+msgid "[i] - display transaction history"
+msgstr ""
+
+#: pkpay/gui/stdio.py:46
+msgid "[o] - enter payment order"
+msgstr ""
+
+#: pkpay/gui/stdio.py:47
+msgid "[p] - print stored payment order"
+msgstr ""
+
+#: pkpay/gui/stdio.py:52
+msgid "[q] - quit"
+msgstr ""
+
+#: pkpay/gui/stdio.py:49
+msgid "[r] - show own receipt addresses"
+msgstr ""
+
+#: pkpay/gui/stdio.py:48
+msgid "[s] - send stored payment order"
+msgstr ""
+
+#: pkpay/wallet.py:1341
+msgid "address already in wallet"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2767
+msgid "and you will have the possibility, while they are unconfirmed, to replace them with transactions that pay higher fees."
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1279
+msgid "are frozen"
+msgstr ""
+
+#: pkpay/gui/qt/network_dialog.py:360 pkpay/gui/qt/network_dialog.py:372
+msgid "blocks"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:131
+msgid "change"
+msgstr ""
+
+#: pkpay/gui/qt/contact_list.py:56 pkpay/gui/qt/contact_list.py:59
+msgid "contacts"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2136
+msgid "cosigner"
+msgstr ""
+
+#: pkpay/wallet.py:796
+msgid "could not find suitable outputs"
+msgstr ""
+
+#: pkpay/gui/qt/transaction_dialog.py:270
+msgid "high fee"
+msgstr ""
+
+#: pkpay/base_wizard.py:284 pkpay/plugin.py:549
+msgid "initialized"
+msgstr ""
+
+#: pkpay/wallet.py:1338
+msgid "invalid address"
+msgstr ""
+
+#: pkpay/wallet.py:1420
+msgid "invalid private key"
+msgstr ""
+
+#: pkpay/gui/qt/invoice_list.py:67 pkpay/gui/qt/invoice_list.py:70
+msgid "invoices"
+msgstr ""
+
+#: pkpay/gui/qt/util.py:353
+msgid "json"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2567 pkpay/gui/qt/main_window.py:2572
+msgid "labels"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:130
+msgid "more information at <a href=\"https://revealer.cc/faq\">https://revealer.cc/faq</a>"
+msgstr ""
+
+#: pkpay/wallet.py:1423
+msgid "not implemented type"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:120
+msgid "or type a existing revealer code below and click 'next':"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:1719
+msgid "please wait..."
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:746
+msgid "print the calibration pdf and follow the instructions "
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:782
+msgid "proxy enabled"
+msgstr ""
+
+#: pkpay/gui/qt/address_list.py:134
+msgid "receiving"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:60
+msgid "secret backup utility"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:412
+msgid "seed"
+msgstr ""
+
+#: pkpay/wallet.py:765
+msgid "transaction is final"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:255
+msgid "type a custom alphanumerical secret below:"
+msgstr ""
+
+#: pkpay/wallet.py:566 pkpay/gui/qt/transaction_dialog.py:264
+#: pkpay/gui/kivy/uix/dialogs/tx_dialog.py:131
+msgid "unknown"
+msgstr ""
+
+#: pkpay/commands.py:894
+msgid "unknown parser {!r} (choices: {})"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:424
+msgid "watching only"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:2108
+msgid "watching-only"
+msgstr ""
+
+#: pkpay/base_wizard.py:284 pkpay/plugin.py:549
+msgid "wiped"
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:205
+msgid "your seed extension will <b>not</b> be included in the encrypted backup."
+msgstr ""
+
+#: pkpay/plugins/coldcard/qt.py:116 pkpay/plugins/keepkey/qt.py:313
+#: pkpay/plugins/safe_t/qt.py:187 pkpay/plugins/trezor/qt.py:277
+msgid "{} Settings"
+msgstr ""
+
+#: pkpay/wallet.py:344
+msgid "{} confirmations"
+msgstr ""
+
+#: pkpay/gui/kivy/uix/ui_screens/network.kv:14
+msgid "{} connections."
+msgstr ""
+
+#: pkpay/plugins/revealer/qt.py:198
+msgid "{} encrypted for Revealer {}_{} saved as PNG and PDF at: "
+msgstr ""
+
+#: pkpay/gui/kivy/uix/dialogs/tx_dialog.py:118
+msgid "{} from tip"
+msgstr ""
+
+#: pkpay/plugins/greenaddress_instant/qt.py:98
+msgid "{} is covered by GreenAddress instant confirmation"
+msgstr ""
+
+#: pkpay/plugins/greenaddress_instant/qt.py:100
+msgid "{} is not covered by GreenAddress instant confirmation"
+msgstr ""
+
+#: pkpay/gui/qt/main_window.py:639
+msgid "{} new transactions received: Total amount received in the new transactions {}"
+msgstr ""
+
+#: pkpay/plugins/keepkey/qt.py:240
+msgid "{} words"
+msgstr ""

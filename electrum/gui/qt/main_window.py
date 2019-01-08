@@ -1648,11 +1648,12 @@ class ElectrumWindow(QMainWindow, MessageBoxMixin, PrintError):
             task = partial(Transaction.sign, tx, self.tx_external_keypairs)
         else:
             task = partial(self.wallet.sign_transaction, tx, password)
+            self.print_msg("signing transaction")
         msg = _('Signing transaction...')
         WaitingDialog(self, msg, task, on_success, on_failure)
 
     def broadcast_transaction(self, tx, tx_desc):
-
+        self.print_msg("broadcast")
         def broadcast_thread():
             # non-GUI thread
             pr = self.payment_request
